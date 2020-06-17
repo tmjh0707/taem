@@ -1,0 +1,170 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>검색결과</title>
+    <style>
+
+    body  {
+        background: #ececec;
+        padding: 40px 0;
+        font-family: 'Lato', sans-serif;
+        color: #444;
+        text-align: center
+    }
+    #title {
+        color: 	#696969;
+        margin: 0 auto;
+        border-style: solid;
+        border-width: 0 0 2px 8px;
+        padding: 12px;
+        word-break: break-all;
+        border-color: #369;
+        width: 620px;
+        }
+    table.type09 {
+        margin: auto;
+        border-collapse: collapse;
+        text-align: left;
+        line-height: 1.5;
+        }
+
+    table.type09 thead th {
+        padding: px;
+        font-weight: bold;
+        vertical-align: top;
+        color: #369;
+        border-bottom: 3px solid #036;
+        }
+
+    table.type09 tbody th {
+        width: 240px;
+        padding: 10px;
+        font-weight: bold;
+        vertical-align: top;
+        border-bottom: 1px solid #ccc;
+        background: #f3f6f7;
+        }
+    table.type09 td {
+        width: 350px;
+        padding: 10px;
+        vertical-align: top;
+        border-bottom: 1px solid #ccc;
+        }
+    #search {
+        width: 25px;
+        }
+    .move {
+        margin: auto;
+        width: 680px;
+        }
+    #back {
+        display : block;
+        margin : 0 auto;
+        }
+
+    #btn, #clicked_btn {
+        text-decoration: none;
+        font-size: 15px;
+        color:white;
+        padding:3px 15px 3px 15px;
+        margin:10px;
+        display:inline-block;
+        border-radius: 5px;
+        transition:all 0.1s;
+        }
+    #btn:active{
+        transform: translateY(3px);
+    }
+    #btn:active{
+        border-bottom:2px solid #165195;
+    }
+    #btn {
+        background-color: #369;
+        border-bottom:5px solid #165195;
+    }
+    #clicked_btn {
+        color: black;
+        transform: translateY(3px);
+        border-bottom:2px solid #165195;
+        background-color: #369;
+    }
+    #back {
+        text-decoration: None
+        font-size:15px;
+        color:white;
+        padding:3px 15px 3px 15px;
+        display:inline-block;
+        border-radius: 5px;
+        transition:all 0.1s;
+        background-color: gray;
+        border-bottom:5px solid #545454;
+    }
+    #back:active {
+        transform: translateY(3px);
+        border-bottom:2px solid #165195;
+    }
+    #page {
+        text-align: center;
+    }
+    #td_back {
+        width:7px;
+    }
+
+    </style>
+</head>
+
+<body>
+    <br>
+    <h1 id="title">{{ session.get('region') }} {{ session.get('city') }} 검색 결과 </h1>
+    <br>
+    <p align="middle">
+    <iframe name="map" src="/map" width="500px" height="500px" frameborder="2" allowfullscreen></iframe>
+    </p>
+    <table class="type09">
+        <thead>
+            <tr>
+                <th>이름</th>
+                <th >주소</th>
+                <th>확대</th>
+            </tr>
+        </thead>
+        <tbody>
+            {% for i in lists %}
+            <tr>
+                <th scope="row"><a>{{ i[1]}}</a></th>
+                <td>{{ i[0] }}</td>
+                <form action="/zoom_proc" method="GET">
+                    <input type="hidden" name="name" value={{i[1]}}>
+                    <input type="hidden" name="x" value={{i[2]}}>
+                    <input type="hidden" name="y" value={{i[3]}}>
+                    <td id="search"><button type="submit" value='검색'>></button></td>
+                </form>
+            </tr>
+            {% endfor %}
+        </tbody>
+    </table>
+
+    <table class="move">
+        <tr>
+            <td id="page">
+            {% for i in range(page_count) %}
+                {% if i+1 == page %}
+            <b id="clicked_btn">{{ i+1 }}</b>
+                {% else %}
+            <a id="btn" href="/result/{{i+1}}"><b>{{ i+1 }}</b></a>
+                {% endif %}
+            {% endfor %}
+            </td>
+            <td id="td_back" ><input type="button" onClick="location.href='/search'" value="뒤로" id="back"></td>
+        </tr>
+
+    </table>
+
+
+
+
+
+</body>
+</html>

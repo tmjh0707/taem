@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <style>
+        body  {
+        background: #ececec;
+        padding: 40px 0;
+        font-family: 'Lato', sans-serif;
+        color: #444;
+        text-align: center
+        }
+        #title {
+            color: 	#696969;
+            margin: 0 auto;
+            border-style: solid;
+            border-width: 0 0 2px 8px;
+            padding: 12px;
+            word-break: break-all;
+            border-color: #369;
+            width: 630px;
+        }
+        .btn {
+            text-decoration: none;
+            font-size: 15px;
+            color:white;
+            padding:3px 15px 3px 15px;
+            margin:10px;
+            display:inline-block;
+            border-radius: 5px;
+            transition:all 0.1s;
+            text-align: center;
+            }
+        .btn:active{
+            transform: translateY(3px);
+        }
+        .btn:active{
+            border-bottom:2px solid #165195;
+        }
+        .btn {
+            background-color: #369;
+            border-bottom:5px solid #165195;
+        }
+        #move {
+            text-align: center
+        }
+
+    </style>
+</head>
+
+<body>
+
+    <br>
+    <h1 id="title">{{ name }} 검색 결과 </h1>
+    <br>
+
+    <p align="middle">
+        <iframe name="map2" src="/map2" width="500px" height="500px" frameborder="2" allowfullscreen></iframe>
+    </p>
+    <p id='move'>
+        <a class="btn" onClick="history.back()"><b>이전으로 돌아가기</b></a>
+        <a class="btn" href="/search"><b>처음으로 돌아가기</b></a>
+    </p>
+</body>
+</html>

@@ -1,0 +1,2163 @@
+<!DOCTYPE html>
+<head>    
+    <meta http-equiv="content-type" content="text/html; charset=UTF-8" />
+    
+        <script>
+            L_NO_TOUCH = false;
+            L_DISABLE_3D = false;
+        </script>
+    
+    <script src="https://cdn.jsdelivr.net/npm/leaflet@1.6.0/dist/leaflet.js"></script>
+    <script src="https://code.jquery.com/jquery-1.12.4.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/js/bootstrap.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.js"></script>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/leaflet@1.6.0/dist/leaflet.css"/>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap.min.css"/>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap-theme.min.css"/>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.6.3/css/font-awesome.min.css"/>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.css"/>
+    <link rel="stylesheet" href="https://rawcdn.githack.com/python-visualization/folium/master/folium/templates/leaflet.awesome.rotate.css"/>
+    <style>html, body {width: 100%;height: 100%;margin: 0;padding: 0;}</style>
+    <style>#map {position:absolute;top:0;bottom:0;right:0;left:0;}</style>
+    
+            <meta name="viewport" content="width=device-width,
+                initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
+            <style>
+                #map_dbd4db999b40424396c8ffbee71e5bc4 {
+                    position: relative;
+                    width: 100.0%;
+                    height: 100.0%;
+                    left: 0.0%;
+                    top: 0.0%;
+                }
+            </style>
+        
+</head>
+<body>    
+    
+            <div class="folium-map" id="map_dbd4db999b40424396c8ffbee71e5bc4" ></div>
+        
+</body>
+<script>    
+    
+            var map_dbd4db999b40424396c8ffbee71e5bc4 = L.map(
+                "map_dbd4db999b40424396c8ffbee71e5bc4",
+                {
+                    center: [33.509893, 126.961835],
+                    crs: L.CRS.EPSG3857,
+                    zoom: 11,
+                    zoomControl: true,
+                    preferCanvas: false,
+                }
+            );
+
+            
+
+        
+    
+            var tile_layer_d4fbacf9f02c493bab4b4bd85886eaca = L.tileLayer(
+                "https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png",
+                {"attribution": "Data by \u0026copy; \u003ca href=\"http://openstreetmap.org\"\u003eOpenStreetMap\u003c/a\u003e, under \u003ca href=\"http://www.openstreetmap.org/copyright\"\u003eODbL\u003c/a\u003e.", "detectRetina": false, "maxNativeZoom": 18, "maxZoom": 18, "minZoom": 0, "noWrap": false, "opacity": 1, "subdomains": "abc", "tms": false}
+            ).addTo(map_dbd4db999b40424396c8ffbee71e5bc4);
+        
+    
+            var marker_44c185007eab4ca6a656a4acd0528c74 = L.marker(
+                [33.509893, 126.961835],
+                {}
+            ).addTo(map_dbd4db999b40424396c8ffbee71e5bc4);
+        
+    
+            var icon_180bb16467a149a39817cc9a8b96206a = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "glyphicon glyphicon-ok", "iconColor": "white", "markerColor": "red", "prefix": "glyphicon"}
+            );
+            marker_44c185007eab4ca6a656a4acd0528c74.setIcon(icon_180bb16467a149a39817cc9a8b96206a);
+        
+    
+        var popup_842c6cb447a74184b10977d1a3d9bbb4 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_43fe4c85c05c4525801552ae82e2cd20 = $(`<div id="html_43fe4c85c05c4525801552ae82e2cd20" style="width: 100.0%; height: 100.0%;">('우도축구장', '제주특별자치도 제주시 우도면 연평리 635-3')</div>`)[0];
+            popup_842c6cb447a74184b10977d1a3d9bbb4.setContent(html_43fe4c85c05c4525801552ae82e2cd20);
+        
+
+        marker_44c185007eab4ca6a656a4acd0528c74.bindPopup(popup_842c6cb447a74184b10977d1a3d9bbb4)
+        ;
+
+        
+    
+    
+            var marker_36a84eefffa141028988fbb37aa150e6 = L.marker(
+                [33.473315, 126.374874],
+                {}
+            ).addTo(map_dbd4db999b40424396c8ffbee71e5bc4);
+        
+    
+            var icon_4cf01a55cb7144499713f274aa4c5c92 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "glyphicon glyphicon-ok", "iconColor": "white", "markerColor": "red", "prefix": "glyphicon"}
+            );
+            marker_36a84eefffa141028988fbb37aa150e6.setIcon(icon_4cf01a55cb7144499713f274aa4c5c92);
+        
+    
+        var popup_a401795efa324cb4aa5713bea339f0fd = L.popup({"maxWidth": "100%"});
+
+        
+            var html_c1ee18b25f2f4a9cad4defd207f394c7 = $(`<div id="html_c1ee18b25f2f4a9cad4defd207f394c7" style="width: 100.0%; height: 100.0%;">('구엄초등학교 운동장', '제주특별자치도 제주시 애월읍 구엄리 1065-0')</div>`)[0];
+            popup_a401795efa324cb4aa5713bea339f0fd.setContent(html_c1ee18b25f2f4a9cad4defd207f394c7);
+        
+
+        marker_36a84eefffa141028988fbb37aa150e6.bindPopup(popup_a401795efa324cb4aa5713bea339f0fd)
+        ;
+
+        
+    
+    
+            var marker_f2873261b687446fa0f2257cac550170 = L.marker(
+                [33.463132, 126.332614],
+                {}
+            ).addTo(map_dbd4db999b40424396c8ffbee71e5bc4);
+        
+    
+            var icon_1c8c1a01933f47378ed52c7dfbb1eefd = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "glyphicon glyphicon-ok", "iconColor": "white", "markerColor": "red", "prefix": "glyphicon"}
+            );
+            marker_f2873261b687446fa0f2257cac550170.setIcon(icon_1c8c1a01933f47378ed52c7dfbb1eefd);
+        
+    
+        var popup_497b043757214096a274079dcd5971b2 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_2bd00bc704a84e228c382f66e8dbce0f = $(`<div id="html_2bd00bc704a84e228c382f66e8dbce0f" style="width: 100.0%; height: 100.0%;">('고내공원', '제주특별자치도 제주시 애월읍 고내리 1356-0')</div>`)[0];
+            popup_497b043757214096a274079dcd5971b2.setContent(html_2bd00bc704a84e228c382f66e8dbce0f);
+        
+
+        marker_f2873261b687446fa0f2257cac550170.bindPopup(popup_497b043757214096a274079dcd5971b2)
+        ;
+
+        
+    
+    
+            var marker_5ef3d631b3764dab8a1c03421d7f90d4 = L.marker(
+                [33.464891, 126.324364],
+                {}
+            ).addTo(map_dbd4db999b40424396c8ffbee71e5bc4);
+        
+    
+            var icon_acf9ca97cc9f49b6be8f7a145f5a5a0e = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "glyphicon glyphicon-ok", "iconColor": "white", "markerColor": "red", "prefix": "glyphicon"}
+            );
+            marker_5ef3d631b3764dab8a1c03421d7f90d4.setIcon(icon_acf9ca97cc9f49b6be8f7a145f5a5a0e);
+        
+    
+        var popup_c20fa817ef064b69a6b788369c7b6850 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_f55ba1be045343bfb0dc144d2ec8e47a = $(`<div id="html_f55ba1be045343bfb0dc144d2ec8e47a" style="width: 100.0%; height: 100.0%;">('애월 중학교 운동장', '제주특별자치도 제주시 애월읍 애월리 419')</div>`)[0];
+            popup_c20fa817ef064b69a6b788369c7b6850.setContent(html_f55ba1be045343bfb0dc144d2ec8e47a);
+        
+
+        marker_5ef3d631b3764dab8a1c03421d7f90d4.bindPopup(popup_c20fa817ef064b69a6b788369c7b6850)
+        ;
+
+        
+    
+    
+            var marker_e8c2d981ca124106818fe2e31051dcb7 = L.marker(
+                [33.465126, 126.322978],
+                {}
+            ).addTo(map_dbd4db999b40424396c8ffbee71e5bc4);
+        
+    
+            var icon_8019728504924cd69bbf073863a00a99 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "glyphicon glyphicon-ok", "iconColor": "white", "markerColor": "red", "prefix": "glyphicon"}
+            );
+            marker_e8c2d981ca124106818fe2e31051dcb7.setIcon(icon_8019728504924cd69bbf073863a00a99);
+        
+    
+        var popup_2bfe362507cb4f8ebc118daf5724b054 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_d831a6e939384e32bed9787b1a9d74ae = $(`<div id="html_d831a6e939384e32bed9787b1a9d74ae" style="width: 100.0%; height: 100.0%;">('애월초등학교 운동장', '제주특별자치도 제주시 애월읍 애월리 1753-1')</div>`)[0];
+            popup_2bfe362507cb4f8ebc118daf5724b054.setContent(html_d831a6e939384e32bed9787b1a9d74ae);
+        
+
+        marker_e8c2d981ca124106818fe2e31051dcb7.bindPopup(popup_2bfe362507cb4f8ebc118daf5724b054)
+        ;
+
+        
+    
+    
+            var marker_b55e5b99237b4943990a51c1a84e86fd = L.marker(
+                [33.479507, 126.402036],
+                {}
+            ).addTo(map_dbd4db999b40424396c8ffbee71e5bc4);
+        
+    
+            var icon_6ea6b765bb1f4a3b9864e456f3aceab2 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "glyphicon glyphicon-ok", "iconColor": "white", "markerColor": "red", "prefix": "glyphicon"}
+            );
+            marker_b55e5b99237b4943990a51c1a84e86fd.setIcon(icon_6ea6b765bb1f4a3b9864e456f3aceab2);
+        
+    
+        var popup_d8f0f77d52ad48ddb728b37d3741f413 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_c62e8f42b5554203a7553836bc0bce03 = $(`<div id="html_c62e8f42b5554203a7553836bc0bce03" style="width: 100.0%; height: 100.0%;">('하귀초등학교 운동장', '제주특별자치도 제주시 애월읍 하귀2리 1908-2')</div>`)[0];
+            popup_d8f0f77d52ad48ddb728b37d3741f413.setContent(html_c62e8f42b5554203a7553836bc0bce03);
+        
+
+        marker_b55e5b99237b4943990a51c1a84e86fd.bindPopup(popup_d8f0f77d52ad48ddb728b37d3741f413)
+        ;
+
+        
+    
+    
+            var marker_fedbdde8bf7647f3be4600ec0a59147a = L.marker(
+                [33.47957, 126.401893],
+                {}
+            ).addTo(map_dbd4db999b40424396c8ffbee71e5bc4);
+        
+    
+            var icon_c7097042e941404cb94440d43fc2908a = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "glyphicon glyphicon-ok", "iconColor": "white", "markerColor": "red", "prefix": "glyphicon"}
+            );
+            marker_fedbdde8bf7647f3be4600ec0a59147a.setIcon(icon_c7097042e941404cb94440d43fc2908a);
+        
+    
+        var popup_e11c0354a346463e953fcfadade1d96f = L.popup({"maxWidth": "100%"});
+
+        
+            var html_1dd76517faf74898a9638779cbabcce1 = $(`<div id="html_1dd76517faf74898a9638779cbabcce1" style="width: 100.0%; height: 100.0%;">('하귀일초등학교 운동장', '제주특별자치도 제주시 애월읍 하귀2리 1908-2')</div>`)[0];
+            popup_e11c0354a346463e953fcfadade1d96f.setContent(html_1dd76517faf74898a9638779cbabcce1);
+        
+
+        marker_fedbdde8bf7647f3be4600ec0a59147a.bindPopup(popup_e11c0354a346463e953fcfadade1d96f)
+        ;
+
+        
+    
+    
+            var marker_bfc6fb44a9374de9b1950e3ccf283c3d = L.marker(
+                [33.47, 126.78],
+                {}
+            ).addTo(map_dbd4db999b40424396c8ffbee71e5bc4);
+        
+    
+            var icon_49cae255c03847439fc7f3061f2dce00 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "glyphicon glyphicon-ok", "iconColor": "white", "markerColor": "red", "prefix": "glyphicon"}
+            );
+            marker_bfc6fb44a9374de9b1950e3ccf283c3d.setIcon(icon_49cae255c03847439fc7f3061f2dce00);
+        
+    
+        var popup_730c3e2b16be4a789e2bb6a78c36e82c = L.popup({"maxWidth": "100%"});
+
+        
+            var html_8bf32fda71e944fb9e322575dea7109c = $(`<div id="html_8bf32fda71e944fb9e322575dea7109c" style="width: 100.0%; height: 100.0%;">('송당초등학교 운동장', '제주특별자치도 제주시 구좌읍 송당리 1366-0')</div>`)[0];
+            popup_730c3e2b16be4a789e2bb6a78c36e82c.setContent(html_8bf32fda71e944fb9e322575dea7109c);
+        
+
+        marker_bfc6fb44a9374de9b1950e3ccf283c3d.bindPopup(popup_730c3e2b16be4a789e2bb6a78c36e82c)
+        ;
+
+        
+    
+    
+            var marker_95b7c5c191da49189c037252fa76df7e = L.marker(
+                [33.521247, 126.853979],
+                {}
+            ).addTo(map_dbd4db999b40424396c8ffbee71e5bc4);
+        
+    
+            var icon_3e7af30de7164a48b0a1d94d91bbfbcf = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "glyphicon glyphicon-ok", "iconColor": "white", "markerColor": "red", "prefix": "glyphicon"}
+            );
+            marker_95b7c5c191da49189c037252fa76df7e.setIcon(icon_3e7af30de7164a48b0a1d94d91bbfbcf);
+        
+    
+        var popup_6d3d6da01b094faba1d9b77ffc772d6b = L.popup({"maxWidth": "100%"});
+
+        
+            var html_9d0555dfb77a4110ab69f0d700eb1b91 = $(`<div id="html_9d0555dfb77a4110ab69f0d700eb1b91" style="width: 100.0%; height: 100.0%;">('세화중학교 운동장', '제주특별자치도 제주시 구좌읍 세화리 1198')</div>`)[0];
+            popup_6d3d6da01b094faba1d9b77ffc772d6b.setContent(html_9d0555dfb77a4110ab69f0d700eb1b91);
+        
+
+        marker_95b7c5c191da49189c037252fa76df7e.bindPopup(popup_6d3d6da01b094faba1d9b77ffc772d6b)
+        ;
+
+        
+    
+    
+            var marker_4be132dcfadf4f988f41c9dd06d0cd37 = L.marker(
+                [33.519886, 126.864774],
+                {}
+            ).addTo(map_dbd4db999b40424396c8ffbee71e5bc4);
+        
+    
+            var icon_b0f0da53458241708950ccf1afc5fa58 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "glyphicon glyphicon-ok", "iconColor": "white", "markerColor": "red", "prefix": "glyphicon"}
+            );
+            marker_4be132dcfadf4f988f41c9dd06d0cd37.setIcon(icon_b0f0da53458241708950ccf1afc5fa58);
+        
+    
+        var popup_9460190e99de44d1850b9536052e28b9 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_f631b75aed19456788072d2842fdbbea = $(`<div id="html_f631b75aed19456788072d2842fdbbea" style="width: 100.0%; height: 100.0%;">('세화공원', '제주특별자치도 제주시 구좌읍 상도리 471-0')</div>`)[0];
+            popup_9460190e99de44d1850b9536052e28b9.setContent(html_f631b75aed19456788072d2842fdbbea);
+        
+
+        marker_4be132dcfadf4f988f41c9dd06d0cd37.bindPopup(popup_9460190e99de44d1850b9536052e28b9)
+        ;
+
+        
+    
+    
+            var marker_d5b4c63a00284719aef09680c77b1d0d = L.marker(
+                [33.55, 126.75],
+                {}
+            ).addTo(map_dbd4db999b40424396c8ffbee71e5bc4);
+        
+    
+            var icon_82be5021d2c94c3f9fc6d7873366322b = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "glyphicon glyphicon-ok", "iconColor": "white", "markerColor": "red", "prefix": "glyphicon"}
+            );
+            marker_d5b4c63a00284719aef09680c77b1d0d.setIcon(icon_82be5021d2c94c3f9fc6d7873366322b);
+        
+    
+        var popup_43acb2bfd3754e0da424069c0f272f71 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_f2451bb52d204595a4831263b902eb78 = $(`<div id="html_f2451bb52d204595a4831263b902eb78" style="width: 100.0%; height: 100.0%;">('김녕초등학교 운동장', '제주특별자치도 제주시 구좌읍 김녕리 1654-0')</div>`)[0];
+            popup_43acb2bfd3754e0da424069c0f272f71.setContent(html_f2451bb52d204595a4831263b902eb78);
+        
+
+        marker_d5b4c63a00284719aef09680c77b1d0d.bindPopup(popup_43acb2bfd3754e0da424069c0f272f71)
+        ;
+
+        
+    
+    
+            var marker_39e5749508d74604b477656a9976ce0e = L.marker(
+                [33.533869, 126.619334],
+                {}
+            ).addTo(map_dbd4db999b40424396c8ffbee71e5bc4);
+        
+    
+            var icon_dbc5fd16e19548708ae35b8174532ecb = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "glyphicon glyphicon-ok", "iconColor": "white", "markerColor": "red", "prefix": "glyphicon"}
+            );
+            marker_39e5749508d74604b477656a9976ce0e.setIcon(icon_dbc5fd16e19548708ae35b8174532ecb);
+        
+    
+        var popup_fec118d3e9504c0da1d80748b3966d0e = L.popup({"maxWidth": "100%"});
+
+        
+            var html_dcb09e3996674d81baa013c12139b1e8 = $(`<div id="html_dcb09e3996674d81baa013c12139b1e8" style="width: 100.0%; height: 100.0%;">('신촌초등학교 운동장', '제주특별자치도 제주시 조천읍 신촌리 1828-0')</div>`)[0];
+            popup_fec118d3e9504c0da1d80748b3966d0e.setContent(html_dcb09e3996674d81baa013c12139b1e8);
+        
+
+        marker_39e5749508d74604b477656a9976ce0e.bindPopup(popup_fec118d3e9504c0da1d80748b3966d0e)
+        ;
+
+        
+    
+    
+            var marker_8b3de29370ce4681a30f2e199114853b = L.marker(
+                [33.535472, 126.633818],
+                {}
+            ).addTo(map_dbd4db999b40424396c8ffbee71e5bc4);
+        
+    
+            var icon_b1f26982285d4a09a81a049bccc5dd40 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "glyphicon glyphicon-ok", "iconColor": "white", "markerColor": "red", "prefix": "glyphicon"}
+            );
+            marker_8b3de29370ce4681a30f2e199114853b.setIcon(icon_b1f26982285d4a09a81a049bccc5dd40);
+        
+    
+        var popup_9fa2e02f559a4143990524d9f77f2334 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_6111ee15805a410ab083435df2be10a0 = $(`<div id="html_6111ee15805a410ab083435df2be10a0" style="width: 100.0%; height: 100.0%;">('조천초등학교 운동장', '제주특별자치도 제주시 조천읍 조천리 3140')</div>`)[0];
+            popup_9fa2e02f559a4143990524d9f77f2334.setContent(html_6111ee15805a410ab083435df2be10a0);
+        
+
+        marker_8b3de29370ce4681a30f2e199114853b.bindPopup(popup_9fa2e02f559a4143990524d9f77f2334)
+        ;
+
+        
+    
+    
+            var marker_060f0cbb5cd44c37922bf50d9f7de44a = L.marker(
+                [33.538337, 126.672121],
+                {}
+            ).addTo(map_dbd4db999b40424396c8ffbee71e5bc4);
+        
+    
+            var icon_3c463aedb8ad46f5998ec3eb894eec40 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "glyphicon glyphicon-ok", "iconColor": "white", "markerColor": "red", "prefix": "glyphicon"}
+            );
+            marker_060f0cbb5cd44c37922bf50d9f7de44a.setIcon(icon_3c463aedb8ad46f5998ec3eb894eec40);
+        
+    
+        var popup_742e43842522498a9adaa5e1cb98321a = L.popup({"maxWidth": "100%"});
+
+        
+            var html_ba08ac20174e414aa7ff8e37f63eb602 = $(`<div id="html_ba08ac20174e414aa7ff8e37f63eb602" style="width: 100.0%; height: 100.0%;">('함덕초등학교 운동장', '제주특별자치도 제주시 조천읍 함덕리 287-2')</div>`)[0];
+            popup_742e43842522498a9adaa5e1cb98321a.setContent(html_ba08ac20174e414aa7ff8e37f63eb602);
+        
+
+        marker_060f0cbb5cd44c37922bf50d9f7de44a.bindPopup(popup_742e43842522498a9adaa5e1cb98321a)
+        ;
+
+        
+    
+    
+            var marker_38c37ed4c013422c8e6d63e132364ce6 = L.marker(
+                [33.301296, 126.184516],
+                {}
+            ).addTo(map_dbd4db999b40424396c8ffbee71e5bc4);
+        
+    
+            var icon_c67a60cafc154e0e9cbd5c87300cd380 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "glyphicon glyphicon-ok", "iconColor": "white", "markerColor": "red", "prefix": "glyphicon"}
+            );
+            marker_38c37ed4c013422c8e6d63e132364ce6.setIcon(icon_c67a60cafc154e0e9cbd5c87300cd380);
+        
+    
+        var popup_1718a346a68c40c0900364be64adb2f4 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_0124c2a927c14768901e6f761c4da92d = $(`<div id="html_0124c2a927c14768901e6f761c4da92d" style="width: 100.0%; height: 100.0%;">('한경축구장', '제주특별자치도 제주시 한경면 고산리 1881-2')</div>`)[0];
+            popup_1718a346a68c40c0900364be64adb2f4.setContent(html_0124c2a927c14768901e6f761c4da92d);
+        
+
+        marker_38c37ed4c013422c8e6d63e132364ce6.bindPopup(popup_1718a346a68c40c0900364be64adb2f4)
+        ;
+
+        
+    
+    
+            var marker_383fab0cd22049829b99abda3f56915e = L.marker(
+                [33.348984, 126.184155],
+                {}
+            ).addTo(map_dbd4db999b40424396c8ffbee71e5bc4);
+        
+    
+            var icon_89a4c0bb9c8a4c10a94a32b4bd80dc15 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "glyphicon glyphicon-ok", "iconColor": "white", "markerColor": "red", "prefix": "glyphicon"}
+            );
+            marker_383fab0cd22049829b99abda3f56915e.setIcon(icon_89a4c0bb9c8a4c10a94a32b4bd80dc15);
+        
+    
+        var popup_f2cc324aa4294633af38c379b439167e = L.popup({"maxWidth": "100%"});
+
+        
+            var html_23b3bd6d6773410f8306677d3f25ff6b = $(`<div id="html_23b3bd6d6773410f8306677d3f25ff6b" style="width: 100.0%; height: 100.0%;">('신창초등학교 운동장', '제주특별자치도 제주시 한경면 신창리 422')</div>`)[0];
+            popup_f2cc324aa4294633af38c379b439167e.setContent(html_23b3bd6d6773410f8306677d3f25ff6b);
+        
+
+        marker_383fab0cd22049829b99abda3f56915e.bindPopup(popup_f2cc324aa4294633af38c379b439167e)
+        ;
+
+        
+    
+    
+            var marker_b351b5e6fcbc4d9f859b0578e59a509e = L.marker(
+                [33.963941, 126.295553],
+                {}
+            ).addTo(map_dbd4db999b40424396c8ffbee71e5bc4);
+        
+    
+            var icon_ca70f274f3354059bbed89d732c9f3fe = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "glyphicon glyphicon-ok", "iconColor": "white", "markerColor": "red", "prefix": "glyphicon"}
+            );
+            marker_b351b5e6fcbc4d9f859b0578e59a509e.setIcon(icon_ca70f274f3354059bbed89d732c9f3fe);
+        
+    
+        var popup_e51c9dd177d9437988512eed226868b6 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_1148667635b44155b4bd0c26f1abec2d = $(`<div id="html_1148667635b44155b4bd0c26f1abec2d" style="width: 100.0%; height: 100.0%;">('추자초등학교 운동장', '제주특별자치도 제주시 추자면 대서리 31')</div>`)[0];
+            popup_e51c9dd177d9437988512eed226868b6.setContent(html_1148667635b44155b4bd0c26f1abec2d);
+        
+
+        marker_b351b5e6fcbc4d9f859b0578e59a509e.bindPopup(popup_e51c9dd177d9437988512eed226868b6)
+        ;
+
+        
+    
+    
+            var marker_322ca964f2dd41d8b25246cc8bc4f4bb = L.marker(
+                [33.480202, 126.479723],
+                {}
+            ).addTo(map_dbd4db999b40424396c8ffbee71e5bc4);
+        
+    
+            var icon_d7768de320ce430a944c2fb14481fcb3 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "glyphicon glyphicon-ok", "iconColor": "white", "markerColor": "red", "prefix": "glyphicon"}
+            );
+            marker_322ca964f2dd41d8b25246cc8bc4f4bb.setIcon(icon_d7768de320ce430a944c2fb14481fcb3);
+        
+    
+        var popup_3cc1ce3c87bd4932adb62020c8b605a2 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_7537575ecd1143e5bbd50d45274787e7 = $(`<div id="html_7537575ecd1143e5bbd50d45274787e7" style="width: 100.0%; height: 100.0%;">('제주제일고등학교 운동장', '제주특별자치도 제주시 노형동   810-0')</div>`)[0];
+            popup_3cc1ce3c87bd4932adb62020c8b605a2.setContent(html_7537575ecd1143e5bbd50d45274787e7);
+        
+
+        marker_322ca964f2dd41d8b25246cc8bc4f4bb.bindPopup(popup_3cc1ce3c87bd4932adb62020c8b605a2)
+        ;
+
+        
+    
+    
+            var marker_e32af98a66354bdb9fbb7cce857ee4d0 = L.marker(
+                [33.472449, 126.481722],
+                {}
+            ).addTo(map_dbd4db999b40424396c8ffbee71e5bc4);
+        
+    
+            var icon_684b8edf18e045e69b7e9de099c8ba72 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "glyphicon glyphicon-ok", "iconColor": "white", "markerColor": "red", "prefix": "glyphicon"}
+            );
+            marker_e32af98a66354bdb9fbb7cce857ee4d0.setIcon(icon_684b8edf18e045e69b7e9de099c8ba72);
+        
+    
+        var popup_b7db9b26429b4cca84ab5c88d985e511 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_81af467730644da19b4d44ca20b818fa = $(`<div id="html_81af467730644da19b4d44ca20b818fa" style="width: 100.0%; height: 100.0%;">('제주고등학교 운동장', '제주특별자치도 제주시 노형동   607-0')</div>`)[0];
+            popup_b7db9b26429b4cca84ab5c88d985e511.setContent(html_81af467730644da19b4d44ca20b818fa);
+        
+
+        marker_e32af98a66354bdb9fbb7cce857ee4d0.bindPopup(popup_b7db9b26429b4cca84ab5c88d985e511)
+        ;
+
+        
+    
+    
+            var marker_698860d0979e41178a121a5c0e2f2850 = L.marker(
+                [33.486837, 126.436543],
+                {}
+            ).addTo(map_dbd4db999b40424396c8ffbee71e5bc4);
+        
+    
+            var icon_0badd1c9358247f88a72b2bcc891b9e0 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "glyphicon glyphicon-ok", "iconColor": "white", "markerColor": "red", "prefix": "glyphicon"}
+            );
+            marker_698860d0979e41178a121a5c0e2f2850.setIcon(icon_0badd1c9358247f88a72b2bcc891b9e0);
+        
+    
+        var popup_10c02d41a4a04aaf86067cc025a4a22f = L.popup({"maxWidth": "100%"});
+
+        
+            var html_c9900463c3e94779b6e711245e27f87e = $(`<div id="html_c9900463c3e94779b6e711245e27f87e" style="width: 100.0%; height: 100.0%;">('외도제2축구장', '제주특별자치도 제주시 외도일동   212-1')</div>`)[0];
+            popup_10c02d41a4a04aaf86067cc025a4a22f.setContent(html_c9900463c3e94779b6e711245e27f87e);
+        
+
+        marker_698860d0979e41178a121a5c0e2f2850.bindPopup(popup_10c02d41a4a04aaf86067cc025a4a22f)
+        ;
+
+        
+    
+    
+            var marker_1f863361d784467cbd9b69e208103be0 = L.marker(
+                [33.487725, 126.436362],
+                {}
+            ).addTo(map_dbd4db999b40424396c8ffbee71e5bc4);
+        
+    
+            var icon_969c74c6dea3433a83bd292613226955 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "glyphicon glyphicon-ok", "iconColor": "white", "markerColor": "red", "prefix": "glyphicon"}
+            );
+            marker_1f863361d784467cbd9b69e208103be0.setIcon(icon_969c74c6dea3433a83bd292613226955);
+        
+    
+        var popup_92bf8fe0e7734d6f80834079d49c9c0c = L.popup({"maxWidth": "100%"});
+
+        
+            var html_73321e176c8a43f888c9c042d0bd2998 = $(`<div id="html_73321e176c8a43f888c9c042d0bd2998" style="width: 100.0%; height: 100.0%;">('외도축구장', '제주특별자치도 제주시 외도일동   585-0')</div>`)[0];
+            popup_92bf8fe0e7734d6f80834079d49c9c0c.setContent(html_73321e176c8a43f888c9c042d0bd2998);
+        
+
+        marker_1f863361d784467cbd9b69e208103be0.bindPopup(popup_92bf8fe0e7734d6f80834079d49c9c0c)
+        ;
+
+        
+    
+    
+            var marker_49e5774441b84e968d070e857af3f83b = L.marker(
+                [33.493096, 126.43441],
+                {}
+            ).addTo(map_dbd4db999b40424396c8ffbee71e5bc4);
+        
+    
+            var icon_6edf43068a1048e7b5d59c706458739e = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "glyphicon glyphicon-ok", "iconColor": "white", "markerColor": "red", "prefix": "glyphicon"}
+            );
+            marker_49e5774441b84e968d070e857af3f83b.setIcon(icon_6edf43068a1048e7b5d59c706458739e);
+        
+    
+        var popup_9071aa4b3bd047468ccc9a1523963a2f = L.popup({"maxWidth": "100%"});
+
+        
+            var html_a0bb034770dd4ceba2318eff5d60f134 = $(`<div id="html_a0bb034770dd4ceba2318eff5d60f134" style="width: 100.0%; height: 100.0%;">('외도초등학교 운동장', '제주특별자치도 제주시 외도이동   235-1')</div>`)[0];
+            popup_9071aa4b3bd047468ccc9a1523963a2f.setContent(html_a0bb034770dd4ceba2318eff5d60f134);
+        
+
+        marker_49e5774441b84e968d070e857af3f83b.bindPopup(popup_9071aa4b3bd047468ccc9a1523963a2f)
+        ;
+
+        
+    
+    
+            var marker_4e17ee4a43ee4391b9f5127ebf3f6da0 = L.marker(
+                [33.486417, 126.457112],
+                {}
+            ).addTo(map_dbd4db999b40424396c8ffbee71e5bc4);
+        
+    
+            var icon_b01225ce9e03418bafb22920b28bd975 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "glyphicon glyphicon-ok", "iconColor": "white", "markerColor": "red", "prefix": "glyphicon"}
+            );
+            marker_4e17ee4a43ee4391b9f5127ebf3f6da0.setIcon(icon_b01225ce9e03418bafb22920b28bd975);
+        
+    
+        var popup_3dc02dd5fdc844739e098e7dabbaa25d = L.popup({"maxWidth": "100%"});
+
+        
+            var html_3095ff070d464c0194abb8de1e5d6af9 = $(`<div id="html_3095ff070d464c0194abb8de1e5d6af9" style="width: 100.0%; height: 100.0%;">('이호운동장', '제주특별자치도 제주시 이호이동   1231-0')</div>`)[0];
+            popup_3dc02dd5fdc844739e098e7dabbaa25d.setContent(html_3095ff070d464c0194abb8de1e5d6af9);
+        
+
+        marker_4e17ee4a43ee4391b9f5127ebf3f6da0.bindPopup(popup_3dc02dd5fdc844739e098e7dabbaa25d)
+        ;
+
+        
+    
+    
+            var marker_43e94f427aa64fb68e16f62abb54d537 = L.marker(
+                [33.501748, 126.464716],
+                {}
+            ).addTo(map_dbd4db999b40424396c8ffbee71e5bc4);
+        
+    
+            var icon_b60614212fb84d3e9f7734b3d01c7d58 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "glyphicon glyphicon-ok", "iconColor": "white", "markerColor": "red", "prefix": "glyphicon"}
+            );
+            marker_43e94f427aa64fb68e16f62abb54d537.setIcon(icon_b60614212fb84d3e9f7734b3d01c7d58);
+        
+    
+        var popup_08963ac71e5e451b964032f55e35592c = L.popup({"maxWidth": "100%"});
+
+        
+            var html_c0c743ca63454ee1aa5be9e90a5fe5aa = $(`<div id="html_c0c743ca63454ee1aa5be9e90a5fe5aa" style="width: 100.0%; height: 100.0%;">('도리초등학교 운동장', '제주특별자치도 제주시 도두일동   2430-1')</div>`)[0];
+            popup_08963ac71e5e451b964032f55e35592c.setContent(html_c0c743ca63454ee1aa5be9e90a5fe5aa);
+        
+
+        marker_43e94f427aa64fb68e16f62abb54d537.bindPopup(popup_08963ac71e5e451b964032f55e35592c)
+        ;
+
+        
+    
+    
+            var marker_faf068120fac46b29f03aa48d4c01c3f = L.marker(
+                [33.50402, 126.464821],
+                {}
+            ).addTo(map_dbd4db999b40424396c8ffbee71e5bc4);
+        
+    
+            var icon_1ff86a50e9d44ff79239bdbed0da192d = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "glyphicon glyphicon-ok", "iconColor": "white", "markerColor": "red", "prefix": "glyphicon"}
+            );
+            marker_faf068120fac46b29f03aa48d4c01c3f.setIcon(icon_1ff86a50e9d44ff79239bdbed0da192d);
+        
+    
+        var popup_289381eeaa584d9999ffb41e12ad4ad7 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_507157e7535b472f8715e0d8ad037a71 = $(`<div id="html_507157e7535b472f8715e0d8ad037a71" style="width: 100.0%; height: 100.0%;">('43호 어린이공원', '제주특별자치도 제주시 도두일동   2620-0')</div>`)[0];
+            popup_289381eeaa584d9999ffb41e12ad4ad7.setContent(html_507157e7535b472f8715e0d8ad037a71);
+        
+
+        marker_faf068120fac46b29f03aa48d4c01c3f.bindPopup(popup_289381eeaa584d9999ffb41e12ad4ad7)
+        ;
+
+        
+    
+    
+            var marker_1551c7e6c1b24437ab2cc677700a9f0e = L.marker(
+                [33.51384, 126.583269],
+                {}
+            ).addTo(map_dbd4db999b40424396c8ffbee71e5bc4);
+        
+    
+            var icon_7f3bd0e7dc7c4544a53cae75f1ca94e9 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "glyphicon glyphicon-ok", "iconColor": "white", "markerColor": "red", "prefix": "glyphicon"}
+            );
+            marker_1551c7e6c1b24437ab2cc677700a9f0e.setIcon(icon_7f3bd0e7dc7c4544a53cae75f1ca94e9);
+        
+    
+        var popup_d1298f6e724e486b8c1d94ddfb6c0af7 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_418601099c3241b1a32db00cb6f1f5a4 = $(`<div id="html_418601099c3241b1a32db00cb6f1f5a4" style="width: 100.0%; height: 100.0%;">('삼화제6근린공원', '제주특별자치도 제주시 도련일동   1912-0')</div>`)[0];
+            popup_d1298f6e724e486b8c1d94ddfb6c0af7.setContent(html_418601099c3241b1a32db00cb6f1f5a4);
+        
+
+        marker_1551c7e6c1b24437ab2cc677700a9f0e.bindPopup(popup_d1298f6e724e486b8c1d94ddfb6c0af7)
+        ;
+
+        
+    
+    
+            var marker_7a7c27836a7a4da38dca934bdbbdc165 = L.marker(
+                [33.513323, 126.58562],
+                {}
+            ).addTo(map_dbd4db999b40424396c8ffbee71e5bc4);
+        
+    
+            var icon_4572c2734a8c451cb477e50f0facbe43 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "glyphicon glyphicon-ok", "iconColor": "white", "markerColor": "red", "prefix": "glyphicon"}
+            );
+            marker_7a7c27836a7a4da38dca934bdbbdc165.setIcon(icon_4572c2734a8c451cb477e50f0facbe43);
+        
+    
+        var popup_2804fae9ed5d405a9d5630382f941414 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_ab6bcb7584294cdfb44a8095341b6bd3 = $(`<div id="html_ab6bcb7584294cdfb44a8095341b6bd3" style="width: 100.0%; height: 100.0%;">('삼화제5근린공원', '제주특별자치도 제주시 도련일동   1895-1')</div>`)[0];
+            popup_2804fae9ed5d405a9d5630382f941414.setContent(html_ab6bcb7584294cdfb44a8095341b6bd3);
+        
+
+        marker_7a7c27836a7a4da38dca934bdbbdc165.bindPopup(popup_2804fae9ed5d405a9d5630382f941414)
+        ;
+
+        
+    
+    
+            var marker_a0585ca21e7640269515793b9b36bbcb = L.marker(
+                [33.513714, 126.581635],
+                {}
+            ).addTo(map_dbd4db999b40424396c8ffbee71e5bc4);
+        
+    
+            var icon_bc6a4799d5564d3cbbc956e952df69f8 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "glyphicon glyphicon-ok", "iconColor": "white", "markerColor": "red", "prefix": "glyphicon"}
+            );
+            marker_a0585ca21e7640269515793b9b36bbcb.setIcon(icon_bc6a4799d5564d3cbbc956e952df69f8);
+        
+    
+        var popup_11941ef2cbab43fb9f111f674f6ccd73 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_b4287b3d104e4d48b07205368996de78 = $(`<div id="html_b4287b3d104e4d48b07205368996de78" style="width: 100.0%; height: 100.0%;">('삼화제4근린공원', '제주특별자치도 제주시 도련일동   1966')</div>`)[0];
+            popup_11941ef2cbab43fb9f111f674f6ccd73.setContent(html_b4287b3d104e4d48b07205368996de78);
+        
+
+        marker_a0585ca21e7640269515793b9b36bbcb.bindPopup(popup_11941ef2cbab43fb9f111f674f6ccd73)
+        ;
+
+        
+    
+    
+            var marker_cbc53bc4c24c4189ba2beefcac2e5d03 = L.marker(
+                [33.516964, 126.580497],
+                {}
+            ).addTo(map_dbd4db999b40424396c8ffbee71e5bc4);
+        
+    
+            var icon_29f73f3b8d11433f96031631d6a2665c = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "glyphicon glyphicon-ok", "iconColor": "white", "markerColor": "red", "prefix": "glyphicon"}
+            );
+            marker_cbc53bc4c24c4189ba2beefcac2e5d03.setIcon(icon_29f73f3b8d11433f96031631d6a2665c);
+        
+    
+        var popup_d30ea10b05ad487280e20e481c7b5e1b = L.popup({"maxWidth": "100%"});
+
+        
+            var html_71a4c78f13d7411da3f5d2f976c38ae2 = $(`<div id="html_71a4c78f13d7411da3f5d2f976c38ae2" style="width: 100.0%; height: 100.0%;">('삼화제2근린공원', '제주특별자치도 제주시 도련일동   2008-0')</div>`)[0];
+            popup_d30ea10b05ad487280e20e481c7b5e1b.setContent(html_71a4c78f13d7411da3f5d2f976c38ae2);
+        
+
+        marker_cbc53bc4c24c4189ba2beefcac2e5d03.bindPopup(popup_d30ea10b05ad487280e20e481c7b5e1b)
+        ;
+
+        
+    
+    
+            var marker_c40f44771bbf4b5d9d2863cba8b9368e = L.marker(
+                [33.473449, 126.636253],
+                {}
+            ).addTo(map_dbd4db999b40424396c8ffbee71e5bc4);
+        
+    
+            var icon_80a867b015f543d9a1df4366abf2d284 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "glyphicon glyphicon-ok", "iconColor": "white", "markerColor": "red", "prefix": "glyphicon"}
+            );
+            marker_c40f44771bbf4b5d9d2863cba8b9368e.setIcon(icon_80a867b015f543d9a1df4366abf2d284);
+        
+    
+        var popup_5af37c6ba2254d249f7c0ae793d18fc0 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_db084cb81b524dd3b7906163a324928c = $(`<div id="html_db084cb81b524dd3b7906163a324928c" style="width: 100.0%; height: 100.0%;">('제주시 생활체육공원 축구장', '제주특별자치도 제주시 회천동   3-21')</div>`)[0];
+            popup_5af37c6ba2254d249f7c0ae793d18fc0.setContent(html_db084cb81b524dd3b7906163a324928c);
+        
+
+        marker_c40f44771bbf4b5d9d2863cba8b9368e.bindPopup(popup_5af37c6ba2254d249f7c0ae793d18fc0)
+        ;
+
+        
+    
+    
+            var marker_6c3498734cca4908a584592ebd0f351a = L.marker(
+                [33.453026, 126.572675],
+                {}
+            ).addTo(map_dbd4db999b40424396c8ffbee71e5bc4);
+        
+    
+            var icon_80efda269c9343ea82d843361d40b5ee = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "glyphicon glyphicon-ok", "iconColor": "white", "markerColor": "red", "prefix": "glyphicon"}
+            );
+            marker_6c3498734cca4908a584592ebd0f351a.setIcon(icon_80efda269c9343ea82d843361d40b5ee);
+        
+    
+        var popup_89b53aa39b41427da56d3eca4fb90cb1 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_e38d826892a14286adbb8079e9e3acaf = $(`<div id="html_e38d826892a14286adbb8079e9e3acaf" style="width: 100.0%; height: 100.0%;">('첨단제1근린공원', '제주특별자치도 제주시 영평동   2278')</div>`)[0];
+            popup_89b53aa39b41427da56d3eca4fb90cb1.setContent(html_e38d826892a14286adbb8079e9e3acaf);
+        
+
+        marker_6c3498734cca4908a584592ebd0f351a.bindPopup(popup_89b53aa39b41427da56d3eca4fb90cb1)
+        ;
+
+        
+    
+    
+            var marker_ff197d18e2f24cbb954dce711e993a8e = L.marker(
+                [33.48591, 126.574294],
+                {}
+            ).addTo(map_dbd4db999b40424396c8ffbee71e5bc4);
+        
+    
+            var icon_75c4f318f8074f1082731a06ff6351a7 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "glyphicon glyphicon-ok", "iconColor": "white", "markerColor": "red", "prefix": "glyphicon"}
+            );
+            marker_ff197d18e2f24cbb954dce711e993a8e.setIcon(icon_75c4f318f8074f1082731a06ff6351a7);
+        
+    
+        var popup_b0a0f1bfcadb45dca8eebc22bf7cf323 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_e086f12381684fd3ae1cc69034ae4667 = $(`<div id="html_e086f12381684fd3ae1cc69034ae4667" style="width: 100.0%; height: 100.0%;">('영평하동운동장', '제주특별자치도 제주시 영평동   891-8')</div>`)[0];
+            popup_b0a0f1bfcadb45dca8eebc22bf7cf323.setContent(html_e086f12381684fd3ae1cc69034ae4667);
+        
+
+        marker_ff197d18e2f24cbb954dce711e993a8e.bindPopup(popup_b0a0f1bfcadb45dca8eebc22bf7cf323)
+        ;
+
+        
+    
+    
+            var marker_983afd1a74fe483b901cea16fb2dbc37 = L.marker(
+                [33.478515, 126.567076],
+                {}
+            ).addTo(map_dbd4db999b40424396c8ffbee71e5bc4);
+        
+    
+            var icon_5c51c76d922a4070932d72e3e139cba8 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "glyphicon glyphicon-ok", "iconColor": "white", "markerColor": "red", "prefix": "glyphicon"}
+            );
+            marker_983afd1a74fe483b901cea16fb2dbc37.setIcon(icon_5c51c76d922a4070932d72e3e139cba8);
+        
+    
+        var popup_94f35133b34244bd9a164cd041e9a38c = L.popup({"maxWidth": "100%"});
+
+        
+            var html_1c4a20eca96f4d77a64b52867ce16435 = $(`<div id="html_1c4a20eca96f4d77a64b52867ce16435" style="width: 100.0%; height: 100.0%;">('영평초등학교 운동장', '제주특별자치도 제주시 영평동   1826-0')</div>`)[0];
+            popup_94f35133b34244bd9a164cd041e9a38c.setContent(html_1c4a20eca96f4d77a64b52867ce16435);
+        
+
+        marker_983afd1a74fe483b901cea16fb2dbc37.bindPopup(popup_94f35133b34244bd9a164cd041e9a38c)
+        ;
+
+        
+    
+    
+            var marker_31c42cd42db54435a6d35011637a91b0 = L.marker(
+                [33.486238, 126.500693],
+                {}
+            ).addTo(map_dbd4db999b40424396c8ffbee71e5bc4);
+        
+    
+            var icon_2238ba52a61c4d00a00188cf389f167d = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "glyphicon glyphicon-ok", "iconColor": "white", "markerColor": "red", "prefix": "glyphicon"}
+            );
+            marker_31c42cd42db54435a6d35011637a91b0.setIcon(icon_2238ba52a61c4d00a00188cf389f167d);
+        
+    
+        var popup_4add96dc16ba466ca4bea3b51985e348 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_7e015b8d57014ddb8a56ee74a8d4f7d9 = $(`<div id="html_7e015b8d57014ddb8a56ee74a8d4f7d9" style="width: 100.0%; height: 100.0%;">('제주중앙초등학교 운동장', '제주특별자치도 제주시 연동   323-14')</div>`)[0];
+            popup_4add96dc16ba466ca4bea3b51985e348.setContent(html_7e015b8d57014ddb8a56ee74a8d4f7d9);
+        
+
+        marker_31c42cd42db54435a6d35011637a91b0.bindPopup(popup_4add96dc16ba466ca4bea3b51985e348)
+        ;
+
+        
+    
+    
+            var marker_eb07cd449c6f4d5281a32497a7b7b348 = L.marker(
+                [33.489537, 126.48305],
+                {}
+            ).addTo(map_dbd4db999b40424396c8ffbee71e5bc4);
+        
+    
+            var icon_e4994783778941a1a33d3bb21fe4341e = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "glyphicon glyphicon-ok", "iconColor": "white", "markerColor": "red", "prefix": "glyphicon"}
+            );
+            marker_eb07cd449c6f4d5281a32497a7b7b348.setIcon(icon_e4994783778941a1a33d3bb21fe4341e);
+        
+    
+        var popup_e4b3169f23a3400488b0f8ae6783687d = L.popup({"maxWidth": "100%"});
+
+        
+            var html_ce28cbad4f164515a76ba1a7485003b9 = $(`<div id="html_ce28cbad4f164515a76ba1a7485003b9" style="width: 100.0%; height: 100.0%;">('남녕고등학교 운동장', '제주특별자치도 제주시 연동   2288')</div>`)[0];
+            popup_e4b3169f23a3400488b0f8ae6783687d.setContent(html_ce28cbad4f164515a76ba1a7485003b9);
+        
+
+        marker_eb07cd449c6f4d5281a32497a7b7b348.bindPopup(popup_e4b3169f23a3400488b0f8ae6783687d)
+        ;
+
+        
+    
+    
+            var marker_24742b6682dd43e0a3e8ae584430d09a = L.marker(
+                [33.491392, 126.491467],
+                {}
+            ).addTo(map_dbd4db999b40424396c8ffbee71e5bc4);
+        
+    
+            var icon_ebf7a291d47d46b4aa10049463c02d7a = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "glyphicon glyphicon-ok", "iconColor": "white", "markerColor": "red", "prefix": "glyphicon"}
+            );
+            marker_24742b6682dd43e0a3e8ae584430d09a.setIcon(icon_ebf7a291d47d46b4aa10049463c02d7a);
+        
+    
+        var popup_45500cdc502b45e4a1b8c617c576479e = L.popup({"maxWidth": "100%"});
+
+        
+            var html_4e82d4e60f2942258f543c8617dcfcbf = $(`<div id="html_4e82d4e60f2942258f543c8617dcfcbf" style="width: 100.0%; height: 100.0%;">('삼무공원', '제주특별자치도 제주시 연동   270-5')</div>`)[0];
+            popup_45500cdc502b45e4a1b8c617c576479e.setContent(html_4e82d4e60f2942258f543c8617dcfcbf);
+        
+
+        marker_24742b6682dd43e0a3e8ae584430d09a.bindPopup(popup_45500cdc502b45e4a1b8c617c576479e)
+        ;
+
+        
+    
+    
+            var marker_8e86714f681744abb3fcb3188b4ea521 = L.marker(
+                [33.482919, 126.497727],
+                {}
+            ).addTo(map_dbd4db999b40424396c8ffbee71e5bc4);
+        
+    
+            var icon_a53f44d3da6f4a5aac525a09d6cbcc87 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "glyphicon glyphicon-ok", "iconColor": "white", "markerColor": "red", "prefix": "glyphicon"}
+            );
+            marker_8e86714f681744abb3fcb3188b4ea521.setIcon(icon_a53f44d3da6f4a5aac525a09d6cbcc87);
+        
+    
+        var popup_f646649f90ca41f690ae37368de912f9 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_28fe360a58da4998b2efa416c4e933dc = $(`<div id="html_28fe360a58da4998b2efa416c4e933dc" style="width: 100.0%; height: 100.0%;">('신제주초등학교 운동장', '제주특별자치도 제주시 연동   316-0')</div>`)[0];
+            popup_f646649f90ca41f690ae37368de912f9.setContent(html_28fe360a58da4998b2efa416c4e933dc);
+        
+
+        marker_8e86714f681744abb3fcb3188b4ea521.bindPopup(popup_f646649f90ca41f690ae37368de912f9)
+        ;
+
+        
+    
+    
+            var marker_414cff16d4bf49339560b8f2e12c1f4c = L.marker(
+                [33.486239, 126.500557],
+                {}
+            ).addTo(map_dbd4db999b40424396c8ffbee71e5bc4);
+        
+    
+            var icon_a7ee58d63734443188be916e09c27daa = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "glyphicon glyphicon-ok", "iconColor": "white", "markerColor": "red", "prefix": "glyphicon"}
+            );
+            marker_414cff16d4bf49339560b8f2e12c1f4c.setIcon(icon_a7ee58d63734443188be916e09c27daa);
+        
+    
+        var popup_71e1ddc7f9e149e990c404f11bdbdf53 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_c6390904c293426fa157fac453700bba = $(`<div id="html_c6390904c293426fa157fac453700bba" style="width: 100.0%; height: 100.0%;">('제주중앙중학교 운동장', '제주특별자치도 제주시 연동   323-14')</div>`)[0];
+            popup_71e1ddc7f9e149e990c404f11bdbdf53.setContent(html_c6390904c293426fa157fac453700bba);
+        
+
+        marker_414cff16d4bf49339560b8f2e12c1f4c.bindPopup(popup_71e1ddc7f9e149e990c404f11bdbdf53)
+        ;
+
+        
+    
+    
+            var marker_621e39b3b6914e1bb8b610bbad83736c = L.marker(
+                [33.49189, 126.484167],
+                {}
+            ).addTo(map_dbd4db999b40424396c8ffbee71e5bc4);
+        
+    
+            var icon_212b17efb0064cdeb9de294b42bbdf3b = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "glyphicon glyphicon-ok", "iconColor": "white", "markerColor": "red", "prefix": "glyphicon"}
+            );
+            marker_621e39b3b6914e1bb8b610bbad83736c.setIcon(icon_212b17efb0064cdeb9de294b42bbdf3b);
+        
+    
+        var popup_420e6e8bf9fe45eabbeb59eb091ac441 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_5ffcdeab5faf41a29559f9e32a8e5cce = $(`<div id="html_5ffcdeab5faf41a29559f9e32a8e5cce" style="width: 100.0%; height: 100.0%;">('신광초등학교 운동장', '제주특별자치도 제주시 연동   1996-5')</div>`)[0];
+            popup_420e6e8bf9fe45eabbeb59eb091ac441.setContent(html_5ffcdeab5faf41a29559f9e32a8e5cce);
+        
+
+        marker_621e39b3b6914e1bb8b610bbad83736c.bindPopup(popup_420e6e8bf9fe45eabbeb59eb091ac441)
+        ;
+
+        
+    
+    
+            var marker_6f33a26767904e038fb8a6d5314c534e = L.marker(
+                [33.490459, 126.496123],
+                {}
+            ).addTo(map_dbd4db999b40424396c8ffbee71e5bc4);
+        
+    
+            var icon_0afdfcbb9dbf45d2b8551fcc624ea8ad = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "glyphicon glyphicon-ok", "iconColor": "white", "markerColor": "red", "prefix": "glyphicon"}
+            );
+            marker_6f33a26767904e038fb8a6d5314c534e.setIcon(icon_0afdfcbb9dbf45d2b8551fcc624ea8ad);
+        
+    
+        var popup_f4ee2666dace475b952151735c8df5cf = L.popup({"maxWidth": "100%"});
+
+        
+            var html_a5663865581f40e5a6f50b816e6c17eb = $(`<div id="html_a5663865581f40e5a6f50b816e6c17eb" style="width: 100.0%; height: 100.0%;">('삼다공원', '제주특별자치도 제주시 연동   301-9')</div>`)[0];
+            popup_f4ee2666dace475b952151735c8df5cf.setContent(html_a5663865581f40e5a6f50b816e6c17eb);
+        
+
+        marker_6f33a26767904e038fb8a6d5314c534e.bindPopup(popup_f4ee2666dace475b952151735c8df5cf)
+        ;
+
+        
+    
+    
+            var marker_b10417d59e0644928a333e18831b4f30 = L.marker(
+                [33.4946, 126.481065],
+                {}
+            ).addTo(map_dbd4db999b40424396c8ffbee71e5bc4);
+        
+    
+            var icon_582f3a7086154aa086a184ea7622b281 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "glyphicon glyphicon-ok", "iconColor": "white", "markerColor": "red", "prefix": "glyphicon"}
+            );
+            marker_b10417d59e0644928a333e18831b4f30.setIcon(icon_582f3a7086154aa086a184ea7622b281);
+        
+    
+        var popup_c43c9d99ec9a43ea801c5397c8f14e61 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_32ff44ec65dd4228bb394fbb52db0dc8 = $(`<div id="html_32ff44ec65dd4228bb394fbb52db0dc8" style="width: 100.0%; height: 100.0%;">('제주서중학교 운동장', '제주특별자치도 제주시 연동   2405-0')</div>`)[0];
+            popup_c43c9d99ec9a43ea801c5397c8f14e61.setContent(html_32ff44ec65dd4228bb394fbb52db0dc8);
+        
+
+        marker_b10417d59e0644928a333e18831b4f30.bindPopup(popup_c43c9d99ec9a43ea801c5397c8f14e61)
+        ;
+
+        
+    
+    
+            var marker_06719360424641da828e97c8223ff4e1 = L.marker(
+                [33.482183, 126.491019],
+                {}
+            ).addTo(map_dbd4db999b40424396c8ffbee71e5bc4);
+        
+    
+            var icon_43b0b33677e040b2a87420ab830bcf17 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "glyphicon glyphicon-ok", "iconColor": "white", "markerColor": "red", "prefix": "glyphicon"}
+            );
+            marker_06719360424641da828e97c8223ff4e1.setIcon(icon_43b0b33677e040b2a87420ab830bcf17);
+        
+    
+        var popup_6c34ae96d20e41f3b7ca92a42dc3f848 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_27e71deb493e41ecbc1c3b7a4e485271 = $(`<div id="html_27e71deb493e41ecbc1c3b7a4e485271" style="width: 100.0%; height: 100.0%;">('연동공원', '제주특별자치도 제주시 연동   1373-5')</div>`)[0];
+            popup_6c34ae96d20e41f3b7ca92a42dc3f848.setContent(html_27e71deb493e41ecbc1c3b7a4e485271);
+        
+
+        marker_06719360424641da828e97c8223ff4e1.bindPopup(popup_6c34ae96d20e41f3b7ca92a42dc3f848)
+        ;
+
+        
+    
+    
+            var marker_b64141710f774ccaaf5e6f38ff9ccbd4 = L.marker(
+                [33.480523, 126.4472],
+                {}
+            ).addTo(map_dbd4db999b40424396c8ffbee71e5bc4);
+        
+    
+            var icon_617431056ff841cfa972f66e3b612256 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "glyphicon glyphicon-ok", "iconColor": "white", "markerColor": "red", "prefix": "glyphicon"}
+            );
+            marker_b64141710f774ccaaf5e6f38ff9ccbd4.setIcon(icon_617431056ff841cfa972f66e3b612256);
+        
+    
+        var popup_3e06a1955c704941aa0627c78cec05eb = L.popup({"maxWidth": "100%"});
+
+        
+            var html_3fc1d2f8d7e345a4925adfc1ea9df599 = $(`<div id="html_3fc1d2f8d7e345a4925adfc1ea9df599" style="width: 100.0%; height: 100.0%;">('도평초등학교 운동장', '제주특별자치도 제주시 도평동   866-0')</div>`)[0];
+            popup_3e06a1955c704941aa0627c78cec05eb.setContent(html_3fc1d2f8d7e345a4925adfc1ea9df599);
+        
+
+        marker_b64141710f774ccaaf5e6f38ff9ccbd4.bindPopup(popup_3e06a1955c704941aa0627c78cec05eb)
+        ;
+
+        
+    
+    
+            var marker_1625ac65ae894dc2a59f09d4565c3dea = L.marker(
+                [33.456593, 126.454275],
+                {}
+            ).addTo(map_dbd4db999b40424396c8ffbee71e5bc4);
+        
+    
+            var icon_b753df729f194f919a9db1a326fbb493 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "glyphicon glyphicon-ok", "iconColor": "white", "markerColor": "red", "prefix": "glyphicon"}
+            );
+            marker_1625ac65ae894dc2a59f09d4565c3dea.setIcon(icon_b753df729f194f919a9db1a326fbb493);
+        
+    
+        var popup_35f36ba4e92747a8bf38363985e7f765 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_bd45b975eb6b4ac89986946af9ed6e31 = $(`<div id="html_bd45b975eb6b4ac89986946af9ed6e31" style="width: 100.0%; height: 100.0%;">('해안초등학교 운동장', '제주특별자치도 제주시 해안동   1948-0')</div>`)[0];
+            popup_35f36ba4e92747a8bf38363985e7f765.setContent(html_bd45b975eb6b4ac89986946af9ed6e31);
+        
+
+        marker_1625ac65ae894dc2a59f09d4565c3dea.bindPopup(popup_35f36ba4e92747a8bf38363985e7f765)
+        ;
+
+        
+    
+    
+            var marker_6375fbbaca11473bb1f360da17195da2 = L.marker(
+                [33.409572, 126.268682],
+                {}
+            ).addTo(map_dbd4db999b40424396c8ffbee71e5bc4);
+        
+    
+            var icon_19965c7dec2540b38953b61722946fbe = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "glyphicon glyphicon-ok", "iconColor": "white", "markerColor": "red", "prefix": "glyphicon"}
+            );
+            marker_6375fbbaca11473bb1f360da17195da2.setIcon(icon_19965c7dec2540b38953b61722946fbe);
+        
+    
+        var popup_c5484438f62e44ec820b9b56367b416c = L.popup({"maxWidth": "100%"});
+
+        
+            var html_702f17d6f6a041479cba88e25a09d67b = $(`<div id="html_702f17d6f6a041479cba88e25a09d67b" style="width: 100.0%; height: 100.0%;">('한림종합운동장', '제주특별자치도 제주시 한림읍 한림리 887-2')</div>`)[0];
+            popup_c5484438f62e44ec820b9b56367b416c.setContent(html_702f17d6f6a041479cba88e25a09d67b);
+        
+
+        marker_6375fbbaca11473bb1f360da17195da2.bindPopup(popup_c5484438f62e44ec820b9b56367b416c)
+        ;
+
+        
+    
+    
+            var marker_f22957284eba43bd985b705aea455abb = L.marker(
+                [33.459954, 126.436748],
+                {}
+            ).addTo(map_dbd4db999b40424396c8ffbee71e5bc4);
+        
+    
+            var icon_b98473855f4b49d7b79d4093e2fb0d75 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "glyphicon glyphicon-ok", "iconColor": "white", "markerColor": "red", "prefix": "glyphicon"}
+            );
+            marker_f22957284eba43bd985b705aea455abb.setIcon(icon_b98473855f4b49d7b79d4093e2fb0d75);
+        
+    
+        var popup_e3e7452777b54e3faa716871c39fbd75 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_69802ddedefb4864aeefda18246f1f12 = $(`<div id="html_69802ddedefb4864aeefda18246f1f12" style="width: 100.0%; height: 100.0%;">('광령초등학교운동장', '제주특별자치도 제주시 애월읍 광령리 1223-0')</div>`)[0];
+            popup_e3e7452777b54e3faa716871c39fbd75.setContent(html_69802ddedefb4864aeefda18246f1f12);
+        
+
+        marker_f22957284eba43bd985b705aea455abb.bindPopup(popup_e3e7452777b54e3faa716871c39fbd75)
+        ;
+
+        
+    
+    
+            var marker_1a58b377156b4900af1c27ad95677fb9 = L.marker(
+                [33.513925, 126.528127],
+                {}
+            ).addTo(map_dbd4db999b40424396c8ffbee71e5bc4);
+        
+    
+            var icon_ab70012abf1d4f9193e64776dbea2744 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "glyphicon glyphicon-ok", "iconColor": "white", "markerColor": "red", "prefix": "glyphicon"}
+            );
+            marker_1a58b377156b4900af1c27ad95677fb9.setIcon(icon_ab70012abf1d4f9193e64776dbea2744);
+        
+    
+        var popup_c28e30f8946c4af1b6556869d84eca91 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_bb7a667d275841deaca1fbfbfbd01e85 = $(`<div id="html_bb7a667d275841deaca1fbfbfbd01e85" style="width: 100.0%; height: 100.0%;">('탐라문화광장', '제주특별자치도 제주시 일도일동   1202-1')</div>`)[0];
+            popup_c28e30f8946c4af1b6556869d84eca91.setContent(html_bb7a667d275841deaca1fbfbfbd01e85);
+        
+
+        marker_1a58b377156b4900af1c27ad95677fb9.bindPopup(popup_c28e30f8946c4af1b6556869d84eca91)
+        ;
+
+        
+    
+    
+            var marker_dd1f3939540a4658b54a9ecf20f9b4f8 = L.marker(
+                [33.50591, 126.534903],
+                {}
+            ).addTo(map_dbd4db999b40424396c8ffbee71e5bc4);
+        
+    
+            var icon_0370863d04f34a2a9cdb2b4ebe189fb0 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "glyphicon glyphicon-ok", "iconColor": "white", "markerColor": "red", "prefix": "glyphicon"}
+            );
+            marker_dd1f3939540a4658b54a9ecf20f9b4f8.setIcon(icon_0370863d04f34a2a9cdb2b4ebe189fb0);
+        
+    
+        var popup_2031c2bdfb97460a8b0bf21b46266f32 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_56bf973c4b1b43d2a93a164631babc88 = $(`<div id="html_56bf973c4b1b43d2a93a164631babc88" style="width: 100.0%; height: 100.0%;">('신산공원', '제주특별자치도 제주시 일도이동   879')</div>`)[0];
+            popup_2031c2bdfb97460a8b0bf21b46266f32.setContent(html_56bf973c4b1b43d2a93a164631babc88);
+        
+
+        marker_dd1f3939540a4658b54a9ecf20f9b4f8.bindPopup(popup_2031c2bdfb97460a8b0bf21b46266f32)
+        ;
+
+        
+    
+    
+            var marker_3c0c7b0482bf4c658cfb6106c9627d48 = L.marker(
+                [33.501395, 126.547549],
+                {}
+            ).addTo(map_dbd4db999b40424396c8ffbee71e5bc4);
+        
+    
+            var icon_e95d18e4000647b5b5fe8f410508ac99 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "glyphicon glyphicon-ok", "iconColor": "white", "markerColor": "red", "prefix": "glyphicon"}
+            );
+            marker_3c0c7b0482bf4c658cfb6106c9627d48.setIcon(icon_e95d18e4000647b5b5fe8f410508ac99);
+        
+    
+        var popup_f34f1ee1692a40b89e5ebbae10558fe4 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_58d3f956002c4a98b7835675812bc030 = $(`<div id="html_58d3f956002c4a98b7835675812bc030" style="width: 100.0%; height: 100.0%;">('동광초등학교 운동장', '제주특별자치도 제주시 일도이동   75-0')</div>`)[0];
+            popup_f34f1ee1692a40b89e5ebbae10558fe4.setContent(html_58d3f956002c4a98b7835675812bc030);
+        
+
+        marker_3c0c7b0482bf4c658cfb6106c9627d48.bindPopup(popup_f34f1ee1692a40b89e5ebbae10558fe4)
+        ;
+
+        
+    
+    
+            var marker_98b3239111d546209a96a6b232c6ee4e = L.marker(
+                [33.509719, 126.529227],
+                {}
+            ).addTo(map_dbd4db999b40424396c8ffbee71e5bc4);
+        
+    
+            var icon_a03b221016fd4f8ea168ab1288e6269e = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "glyphicon glyphicon-ok", "iconColor": "white", "markerColor": "red", "prefix": "glyphicon"}
+            );
+            marker_98b3239111d546209a96a6b232c6ee4e.setIcon(icon_a03b221016fd4f8ea168ab1288e6269e);
+        
+    
+        var popup_ab732ee4072a481b8c4b621d3dd5579b = L.popup({"maxWidth": "100%"});
+
+        
+            var html_819f0a6160014dd2b16fa1c009ad5177 = $(`<div id="html_819f0a6160014dd2b16fa1c009ad5177" style="width: 100.0%; height: 100.0%;">('일도초등학교 운동장', '제주특별자치도 제주시 일도이동   1038-1')</div>`)[0];
+            popup_ab732ee4072a481b8c4b621d3dd5579b.setContent(html_819f0a6160014dd2b16fa1c009ad5177);
+        
+
+        marker_98b3239111d546209a96a6b232c6ee4e.bindPopup(popup_ab732ee4072a481b8c4b621d3dd5579b)
+        ;
+
+        
+    
+    
+            var marker_6f78e5f8adf84ba692ba24f41f00af68 = L.marker(
+                [33.507234, 126.538186],
+                {}
+            ).addTo(map_dbd4db999b40424396c8ffbee71e5bc4);
+        
+    
+            var icon_7f228ddde59c45c78127da30567b4b37 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "glyphicon glyphicon-ok", "iconColor": "white", "markerColor": "red", "prefix": "glyphicon"}
+            );
+            marker_6f78e5f8adf84ba692ba24f41f00af68.setIcon(icon_7f228ddde59c45c78127da30567b4b37);
+        
+    
+        var popup_813281210f374424aa2e07ff7b8139d2 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_39a90fa8a46f4cb690e86867bf5b39eb = $(`<div id="html_39a90fa8a46f4cb690e86867bf5b39eb" style="width: 100.0%; height: 100.0%;">('인화초등학교 운동장', '제주특별자치도 제주시 일도이동   352-0')</div>`)[0];
+            popup_813281210f374424aa2e07ff7b8139d2.setContent(html_39a90fa8a46f4cb690e86867bf5b39eb);
+        
+
+        marker_6f78e5f8adf84ba692ba24f41f00af68.bindPopup(popup_813281210f374424aa2e07ff7b8139d2)
+        ;
+
+        
+    
+    
+            var marker_d753e314265d47b4bbcbc35ec8bd7afb = L.marker(
+                [33.502395, 126.529741],
+                {}
+            ).addTo(map_dbd4db999b40424396c8ffbee71e5bc4);
+        
+    
+            var icon_edaeb23277b34fe18569eece231bc011 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "glyphicon glyphicon-ok", "iconColor": "white", "markerColor": "red", "prefix": "glyphicon"}
+            );
+            marker_d753e314265d47b4bbcbc35ec8bd7afb.setIcon(icon_edaeb23277b34fe18569eece231bc011);
+        
+    
+        var popup_32841c44fb8c49df9ad5d0f7d3b8a552 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_c883b276ad1f49768f0983188f1d4718 = $(`<div id="html_c883b276ad1f49768f0983188f1d4718" style="width: 100.0%; height: 100.0%;">('광양초등학교 운동장', '제주특별자치도 제주시 이도일동   1257-1')</div>`)[0];
+            popup_32841c44fb8c49df9ad5d0f7d3b8a552.setContent(html_c883b276ad1f49768f0983188f1d4718);
+        
+
+        marker_d753e314265d47b4bbcbc35ec8bd7afb.bindPopup(popup_32841c44fb8c49df9ad5d0f7d3b8a552)
+        ;
+
+        
+    
+    
+            var marker_db3944b37c0847de885ab47a0e1a3063 = L.marker(
+                [33.503116, 126.525402],
+                {}
+            ).addTo(map_dbd4db999b40424396c8ffbee71e5bc4);
+        
+    
+            var icon_54b9d98fc6b54598972ae7cc2722aa9c = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "glyphicon glyphicon-ok", "iconColor": "white", "markerColor": "red", "prefix": "glyphicon"}
+            );
+            marker_db3944b37c0847de885ab47a0e1a3063.setIcon(icon_54b9d98fc6b54598972ae7cc2722aa9c);
+        
+    
+        var popup_357f6b2021344317a419b7cea531de62 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_8591974220134771969d30ed81a5edcf = $(`<div id="html_8591974220134771969d30ed81a5edcf" style="width: 100.0%; height: 100.0%;">('삼성초등학교 운동장', '제주특별자치도 제주시 이도일동   1256-25')</div>`)[0];
+            popup_357f6b2021344317a419b7cea531de62.setContent(html_8591974220134771969d30ed81a5edcf);
+        
+
+        marker_db3944b37c0847de885ab47a0e1a3063.bindPopup(popup_357f6b2021344317a419b7cea531de62)
+        ;
+
+        
+    
+    
+            var marker_b7547031dd9340d59fbdf35bb2fc42ed = L.marker(
+                [33.494687, 126.539132],
+                {}
+            ).addTo(map_dbd4db999b40424396c8ffbee71e5bc4);
+        
+    
+            var icon_2b03164ec0ff4b6eaec18568d35382cb = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "glyphicon glyphicon-ok", "iconColor": "white", "markerColor": "red", "prefix": "glyphicon"}
+            );
+            marker_b7547031dd9340d59fbdf35bb2fc42ed.setIcon(icon_2b03164ec0ff4b6eaec18568d35382cb);
+        
+    
+        var popup_6a77f1ace6ea42acb8328d928186a3d6 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_3768c6152dfe483e85adf378c1f976a3 = $(`<div id="html_3768c6152dfe483e85adf378c1f976a3" style="width: 100.0%; height: 100.0%;">('제주제일중학교 운동장', '제주특별자치도 제주시 이도이동   539-4')</div>`)[0];
+            popup_6a77f1ace6ea42acb8328d928186a3d6.setContent(html_3768c6152dfe483e85adf378c1f976a3);
+        
+
+        marker_b7547031dd9340d59fbdf35bb2fc42ed.bindPopup(popup_6a77f1ace6ea42acb8328d928186a3d6)
+        ;
+
+        
+    
+    
+            var marker_40b6b871c58d4521b7de83217d1d4bd3 = L.marker(
+                [33.502196, 126.521814],
+                {}
+            ).addTo(map_dbd4db999b40424396c8ffbee71e5bc4);
+        
+    
+            var icon_49fcb81da2884c65a53e0d73a526f1ec = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "glyphicon glyphicon-ok", "iconColor": "white", "markerColor": "red", "prefix": "glyphicon"}
+            );
+            marker_40b6b871c58d4521b7de83217d1d4bd3.setIcon(icon_49fcb81da2884c65a53e0d73a526f1ec);
+        
+    
+        var popup_90c004b00d7a4e338ab94ba8bf7baa2b = L.popup({"maxWidth": "100%"});
+
+        
+            var html_38a3e9420aea4c34a09441462a57d32f = $(`<div id="html_38a3e9420aea4c34a09441462a57d32f" style="width: 100.0%; height: 100.0%;">('삼도1동 3호 어린이공원', '제주특별자치도 제주시 삼도일동   547-11')</div>`)[0];
+            popup_90c004b00d7a4e338ab94ba8bf7baa2b.setContent(html_38a3e9420aea4c34a09441462a57d32f);
+        
+
+        marker_40b6b871c58d4521b7de83217d1d4bd3.bindPopup(popup_90c004b00d7a4e338ab94ba8bf7baa2b)
+        ;
+
+        
+    
+    
+            var marker_90f74e43303948119ad7fedfb488b2f0 = L.marker(
+                [33.501507, 126.515881],
+                {}
+            ).addTo(map_dbd4db999b40424396c8ffbee71e5bc4);
+        
+    
+            var icon_4cc4a06702df46ea957becb0ed844c8e = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "glyphicon glyphicon-ok", "iconColor": "white", "markerColor": "red", "prefix": "glyphicon"}
+            );
+            marker_90f74e43303948119ad7fedfb488b2f0.setIcon(icon_4cc4a06702df46ea957becb0ed844c8e);
+        
+    
+        var popup_8e9ea35a92b84f72ae702d9006e97b56 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_061380e3842d4ddc88eb264d703f9e05 = $(`<div id="html_061380e3842d4ddc88eb264d703f9e05" style="width: 100.0%; height: 100.0%;">('삼도1동 2호 어린이 공원', '제주특별자치도 제주시 삼도일동   505-0')</div>`)[0];
+            popup_8e9ea35a92b84f72ae702d9006e97b56.setContent(html_061380e3842d4ddc88eb264d703f9e05);
+        
+
+        marker_90f74e43303948119ad7fedfb488b2f0.bindPopup(popup_8e9ea35a92b84f72ae702d9006e97b56)
+        ;
+
+        
+    
+    
+            var marker_e476dfcc83b6487e80235348e6af5b13 = L.marker(
+                [33.515186, 126.522184],
+                {}
+            ).addTo(map_dbd4db999b40424396c8ffbee71e5bc4);
+        
+    
+            var icon_6ae10c7150c44354a3b10b0f84b11f53 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "glyphicon glyphicon-ok", "iconColor": "white", "markerColor": "red", "prefix": "glyphicon"}
+            );
+            marker_e476dfcc83b6487e80235348e6af5b13.setIcon(icon_6ae10c7150c44354a3b10b0f84b11f53);
+        
+    
+        var popup_5040675b8ccf46ab9f0d3af9615addf1 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_e7957b2dace9429aa1455646ebab4046 = $(`<div id="html_e7957b2dace9429aa1455646ebab4046" style="width: 100.0%; height: 100.0%;">('제주북초등학교 운동장', '제주특별자치도 제주시 삼도이동   17-3')</div>`)[0];
+            popup_5040675b8ccf46ab9f0d3af9615addf1.setContent(html_e7957b2dace9429aa1455646ebab4046);
+        
+
+        marker_e476dfcc83b6487e80235348e6af5b13.bindPopup(popup_5040675b8ccf46ab9f0d3af9615addf1)
+        ;
+
+        
+    
+    
+            var marker_44c71ade892048f196edc0e1fb681e55 = L.marker(
+                [33.506074, 126.519042],
+                {}
+            ).addTo(map_dbd4db999b40424396c8ffbee71e5bc4);
+        
+    
+            var icon_897ce2e5740541c581d4c769637957f4 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "glyphicon glyphicon-ok", "iconColor": "white", "markerColor": "red", "prefix": "glyphicon"}
+            );
+            marker_44c71ade892048f196edc0e1fb681e55.setIcon(icon_897ce2e5740541c581d4c769637957f4);
+        
+    
+        var popup_a27e5fd76605485e8860ae837b00d4df = L.popup({"maxWidth": "100%"});
+
+        
+            var html_f3e208f783af4c93af894a050631de74 = $(`<div id="html_f3e208f783af4c93af894a050631de74" style="width: 100.0%; height: 100.0%;">('삼도1동 1호 어린이공원', '제주특별자치도 제주시 삼도이동   597-23')</div>`)[0];
+            popup_a27e5fd76605485e8860ae837b00d4df.setContent(html_f3e208f783af4c93af894a050631de74);
+        
+
+        marker_44c71ade892048f196edc0e1fb681e55.bindPopup(popup_a27e5fd76605485e8860ae837b00d4df)
+        ;
+
+        
+    
+    
+            var marker_041f269974d44a9397acca243c8103c0 = L.marker(
+                [33.513748, 126.522335],
+                {}
+            ).addTo(map_dbd4db999b40424396c8ffbee71e5bc4);
+        
+    
+            var icon_f86aaf180f654ca58984b3f3d789b642 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "glyphicon glyphicon-ok", "iconColor": "white", "markerColor": "red", "prefix": "glyphicon"}
+            );
+            marker_041f269974d44a9397acca243c8103c0.setIcon(icon_f86aaf180f654ca58984b3f3d789b642);
+        
+    
+        var popup_3c56387d40be4157bd62697f9188ee40 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_1b49d8b6bf9e4e7194b82e69f4a2a20b = $(`<div id="html_1b49d8b6bf9e4e7194b82e69f4a2a20b" style="width: 100.0%; height: 100.0%;">('관덕공원', '제주특별자치도 제주시 삼도이동   43-3')</div>`)[0];
+            popup_3c56387d40be4157bd62697f9188ee40.setContent(html_1b49d8b6bf9e4e7194b82e69f4a2a20b);
+        
+
+        marker_041f269974d44a9397acca243c8103c0.bindPopup(popup_3c56387d40be4157bd62697f9188ee40)
+        ;
+
+        
+    
+    
+            var marker_d1ef84233eed40b2bede93626345c7a7 = L.marker(
+                [33.514067, 126.533528],
+                {}
+            ).addTo(map_dbd4db999b40424396c8ffbee71e5bc4);
+        
+    
+            var icon_9600d31700aa4b63b9ecb439a4ce21f0 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "glyphicon glyphicon-ok", "iconColor": "white", "markerColor": "red", "prefix": "glyphicon"}
+            );
+            marker_d1ef84233eed40b2bede93626345c7a7.setIcon(icon_9600d31700aa4b63b9ecb439a4ce21f0);
+        
+    
+        var popup_11a8bc2839314b54beea1dab89794e7e = L.popup({"maxWidth": "100%"});
+
+        
+            var html_38001019da904777aaef2d18c768d25e = $(`<div id="html_38001019da904777aaef2d18c768d25e" style="width: 100.0%; height: 100.0%;">('제주동초등학교 운동장', '제주특별자치도 제주시 건입동   1105')</div>`)[0];
+            popup_11a8bc2839314b54beea1dab89794e7e.setContent(html_38001019da904777aaef2d18c768d25e);
+        
+
+        marker_d1ef84233eed40b2bede93626345c7a7.bindPopup(popup_11a8bc2839314b54beea1dab89794e7e)
+        ;
+
+        
+    
+    
+            var marker_754528dd4ae0459eb9826d80d54985e5 = L.marker(
+                [33.515598, 126.52856],
+                {}
+            ).addTo(map_dbd4db999b40424396c8ffbee71e5bc4);
+        
+    
+            var icon_203d5923db2b43c9ad64493448756c0e = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "glyphicon glyphicon-ok", "iconColor": "white", "markerColor": "red", "prefix": "glyphicon"}
+            );
+            marker_754528dd4ae0459eb9826d80d54985e5.setIcon(icon_203d5923db2b43c9ad64493448756c0e);
+        
+    
+        var popup_fe3f78a1ced3455d99d9616835aca050 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_b6929f75c4db483f9014b68befbaa8a0 = $(`<div id="html_b6929f75c4db483f9014b68befbaa8a0" style="width: 100.0%; height: 100.0%;">('산짓물공원', '제주특별자치도 제주시 건입동   1343-0')</div>`)[0];
+            popup_fe3f78a1ced3455d99d9616835aca050.setContent(html_b6929f75c4db483f9014b68befbaa8a0);
+        
+
+        marker_754528dd4ae0459eb9826d80d54985e5.bindPopup(popup_fe3f78a1ced3455d99d9616835aca050)
+        ;
+
+        
+    
+    
+            var marker_b8aab9d79de94da7862e2e69ba345882 = L.marker(
+                [33.513477, 126.544766],
+                {}
+            ).addTo(map_dbd4db999b40424396c8ffbee71e5bc4);
+        
+    
+            var icon_8e5fd94e9c6646608776b4c595277302 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "glyphicon glyphicon-ok", "iconColor": "white", "markerColor": "red", "prefix": "glyphicon"}
+            );
+            marker_b8aab9d79de94da7862e2e69ba345882.setIcon(icon_8e5fd94e9c6646608776b4c595277302);
+        
+    
+        var popup_978ffdce3e9a49c3a54a918fad107939 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_ad8adb26f8134c85b81bfecb6e184d34 = $(`<div id="html_ad8adb26f8134c85b81bfecb6e184d34" style="width: 100.0%; height: 100.0%;">('사라봉축구장', '제주특별자치도 제주시 건입동   566-0')</div>`)[0];
+            popup_978ffdce3e9a49c3a54a918fad107939.setContent(html_ad8adb26f8134c85b81bfecb6e184d34);
+        
+
+        marker_b8aab9d79de94da7862e2e69ba345882.bindPopup(popup_978ffdce3e9a49c3a54a918fad107939)
+        ;
+
+        
+    
+    
+            var marker_54adffd94bc04ababa1e1cfb75d17071 = L.marker(
+                [33.511504, 126.515914],
+                {}
+            ).addTo(map_dbd4db999b40424396c8ffbee71e5bc4);
+        
+    
+            var icon_c2e7ee35148a43be878865dfb8284b20 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "glyphicon glyphicon-ok", "iconColor": "white", "markerColor": "red", "prefix": "glyphicon"}
+            );
+            marker_54adffd94bc04ababa1e1cfb75d17071.setIcon(icon_c2e7ee35148a43be878865dfb8284b20);
+        
+    
+        var popup_707009bc033a42789043407e5bf4b3a8 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_1e28f335661545a2a98359d83b4502f0 = $(`<div id="html_1e28f335661545a2a98359d83b4502f0" style="width: 100.0%; height: 100.0%;">('제주중학교 운동장', '제주특별자치도 제주시 용담일동   298-1')</div>`)[0];
+            popup_707009bc033a42789043407e5bf4b3a8.setContent(html_1e28f335661545a2a98359d83b4502f0);
+        
+
+        marker_54adffd94bc04ababa1e1cfb75d17071.bindPopup(popup_707009bc033a42789043407e5bf4b3a8)
+        ;
+
+        
+    
+    
+            var marker_c0d60c65b2564f109615bab9d28ee958 = L.marker(
+                [33.506983, 126.513017],
+                {}
+            ).addTo(map_dbd4db999b40424396c8ffbee71e5bc4);
+        
+    
+            var icon_ce6a41155d6e4f76ac32bec10b75c801 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "glyphicon glyphicon-ok", "iconColor": "white", "markerColor": "red", "prefix": "glyphicon"}
+            );
+            marker_c0d60c65b2564f109615bab9d28ee958.setIcon(icon_ce6a41155d6e4f76ac32bec10b75c801);
+        
+    
+        var popup_5af437e330a44633abdb717b1249e3fd = L.popup({"maxWidth": "100%"});
+
+        
+            var html_80479c9a038f40efa1568e1ff8dc2a75 = $(`<div id="html_80479c9a038f40efa1568e1ff8dc2a75" style="width: 100.0%; height: 100.0%;">('한천초등학교 운동장', '제주특별자치도 제주시 용담일동   254-1')</div>`)[0];
+            popup_5af437e330a44633abdb717b1249e3fd.setContent(html_80479c9a038f40efa1568e1ff8dc2a75);
+        
+
+        marker_c0d60c65b2564f109615bab9d28ee958.bindPopup(popup_5af437e330a44633abdb717b1249e3fd)
+        ;
+
+        
+    
+    
+            var marker_e5899a0604674abda7cf127ec0266d56 = L.marker(
+                [33.511904, 126.510457],
+                {}
+            ).addTo(map_dbd4db999b40424396c8ffbee71e5bc4);
+        
+    
+            var icon_a1462e78744742febfa30392fa1b1244 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "glyphicon glyphicon-ok", "iconColor": "white", "markerColor": "red", "prefix": "glyphicon"}
+            );
+            marker_e5899a0604674abda7cf127ec0266d56.setIcon(icon_a1462e78744742febfa30392fa1b1244);
+        
+    
+        var popup_d33587aab93b4bccb6f3c2dd13cfda35 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_cb63d1a850714a78bb139dbdddef7fdc = $(`<div id="html_cb63d1a850714a78bb139dbdddef7fdc" style="width: 100.0%; height: 100.0%;">('제주서초등학교 운동장', '제주특별자치도 제주시 용담이동   603-3')</div>`)[0];
+            popup_d33587aab93b4bccb6f3c2dd13cfda35.setContent(html_cb63d1a850714a78bb139dbdddef7fdc);
+        
+
+        marker_e5899a0604674abda7cf127ec0266d56.bindPopup(popup_d33587aab93b4bccb6f3c2dd13cfda35)
+        ;
+
+        
+    
+    
+            var marker_9501a7585d214439ba9df38f63c2a8b1 = L.marker(
+                [33.513572, 126.509282],
+                {}
+            ).addTo(map_dbd4db999b40424396c8ffbee71e5bc4);
+        
+    
+            var icon_f042c6e43f4d433fbd852408a4cde69c = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "glyphicon glyphicon-ok", "iconColor": "white", "markerColor": "red", "prefix": "glyphicon"}
+            );
+            marker_9501a7585d214439ba9df38f63c2a8b1.setIcon(icon_f042c6e43f4d433fbd852408a4cde69c);
+        
+    
+        var popup_2a2f5e6a4c50475097d5a34a04918048 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_9e2c5561eeba4c8a918ba67ca69f6717 = $(`<div id="html_9e2c5561eeba4c8a918ba67ca69f6717" style="width: 100.0%; height: 100.0%;">('제주대학교사범대학부설고등학교', '제주특별자치도 제주시 용담삼동   581-0')</div>`)[0];
+            popup_2a2f5e6a4c50475097d5a34a04918048.setContent(html_9e2c5561eeba4c8a918ba67ca69f6717);
+        
+
+        marker_9501a7585d214439ba9df38f63c2a8b1.bindPopup(popup_2a2f5e6a4c50475097d5a34a04918048)
+        ;
+
+        
+    
+    
+            var marker_4e5f2779bb9e4239aca91d5a8ae0cf50 = L.marker(
+                [33.518456, 126.561938],
+                {}
+            ).addTo(map_dbd4db999b40424396c8ffbee71e5bc4);
+        
+    
+            var icon_8b32201a6f7e46da957da1721bb1c280 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "glyphicon glyphicon-ok", "iconColor": "white", "markerColor": "red", "prefix": "glyphicon"}
+            );
+            marker_4e5f2779bb9e4239aca91d5a8ae0cf50.setIcon(icon_8b32201a6f7e46da957da1721bb1c280);
+        
+    
+        var popup_b17c68aa184a43eb894c3508bec2378d = L.popup({"maxWidth": "100%"});
+
+        
+            var html_3dc055e2b4cb403b8e6a1892d6449708 = $(`<div id="html_3dc055e2b4cb403b8e6a1892d6449708" style="width: 100.0%; height: 100.0%;">('화북초등학교 운동장', '제주특별자치도 제주시 화북일동   3994')</div>`)[0];
+            popup_b17c68aa184a43eb894c3508bec2378d.setContent(html_3dc055e2b4cb403b8e6a1892d6449708);
+        
+
+        marker_4e5f2779bb9e4239aca91d5a8ae0cf50.bindPopup(popup_b17c68aa184a43eb894c3508bec2378d)
+        ;
+
+        
+    
+    
+            var marker_0be6e84cc4e34b14abb34820e4639b4a = L.marker(
+                [33.515209, 126.576939],
+                {}
+            ).addTo(map_dbd4db999b40424396c8ffbee71e5bc4);
+        
+    
+            var icon_931b9b5aa511449da7af5c4684d1fbd2 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "glyphicon glyphicon-ok", "iconColor": "white", "markerColor": "red", "prefix": "glyphicon"}
+            );
+            marker_0be6e84cc4e34b14abb34820e4639b4a.setIcon(icon_931b9b5aa511449da7af5c4684d1fbd2);
+        
+    
+        var popup_a6fc306a15ea44eb988861104a97658c = L.popup({"maxWidth": "100%"});
+
+        
+            var html_2269e6d970b84a669ec06a723ca8474f = $(`<div id="html_2269e6d970b84a669ec06a723ca8474f" style="width: 100.0%; height: 100.0%;">('삼화초등학교 운동장', '제주특별자치도 제주시 화북일동   1012-2')</div>`)[0];
+            popup_a6fc306a15ea44eb988861104a97658c.setContent(html_2269e6d970b84a669ec06a723ca8474f);
+        
+
+        marker_0be6e84cc4e34b14abb34820e4639b4a.bindPopup(popup_a6fc306a15ea44eb988861104a97658c)
+        ;
+
+        
+    
+    
+            var marker_95855382a21e416b8f4fd7f8e405a53b = L.marker(
+                [33.518987, 126.575905],
+                {}
+            ).addTo(map_dbd4db999b40424396c8ffbee71e5bc4);
+        
+    
+            var icon_bd9e05b25033472fa3991ed18d369afb = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "glyphicon glyphicon-ok", "iconColor": "white", "markerColor": "red", "prefix": "glyphicon"}
+            );
+            marker_95855382a21e416b8f4fd7f8e405a53b.setIcon(icon_bd9e05b25033472fa3991ed18d369afb);
+        
+    
+        var popup_fa99c9d1cd0f4fa887ddedb317be16ff = L.popup({"maxWidth": "100%"});
+
+        
+            var html_ed6b516c87a3467d977e19179ee8700d = $(`<div id="html_ed6b516c87a3467d977e19179ee8700d" style="width: 100.0%; height: 100.0%;">('동화초등학교 운동장', '제주특별자치도 제주시 화북일동   12-2')</div>`)[0];
+            popup_fa99c9d1cd0f4fa887ddedb317be16ff.setContent(html_ed6b516c87a3467d977e19179ee8700d);
+        
+
+        marker_95855382a21e416b8f4fd7f8e405a53b.bindPopup(popup_fa99c9d1cd0f4fa887ddedb317be16ff)
+        ;
+
+        
+    
+    
+            var marker_3934165dfa984d19906c778d7a322a4f = L.marker(
+                [33.515523, 126.551294],
+                {}
+            ).addTo(map_dbd4db999b40424396c8ffbee71e5bc4);
+        
+    
+            var icon_d2db91c98e604d9e903aa0f7374fef0c = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "glyphicon glyphicon-ok", "iconColor": "white", "markerColor": "red", "prefix": "glyphicon"}
+            );
+            marker_3934165dfa984d19906c778d7a322a4f.setIcon(icon_d2db91c98e604d9e903aa0f7374fef0c);
+        
+    
+        var popup_39daa63526664cf58e74a86de27e94d5 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_7a32e61e1e6f48d8bdfe5aeb23480825 = $(`<div id="html_7a32e61e1e6f48d8bdfe5aeb23480825" style="width: 100.0%; height: 100.0%;">('제주대학교교육대학부설초등학교 운동장', '제주특별자치도 제주시 화북일동   4810-0')</div>`)[0];
+            popup_39daa63526664cf58e74a86de27e94d5.setContent(html_7a32e61e1e6f48d8bdfe5aeb23480825);
+        
+
+        marker_3934165dfa984d19906c778d7a322a4f.bindPopup(popup_39daa63526664cf58e74a86de27e94d5)
+        ;
+
+        
+    
+    
+            var marker_c990e2e1edaa429f8a6038794b2556d9 = L.marker(
+                [33.516304, 126.574873],
+                {}
+            ).addTo(map_dbd4db999b40424396c8ffbee71e5bc4);
+        
+    
+            var icon_498d75550ba04dec8f05b8af51b733c9 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "glyphicon glyphicon-ok", "iconColor": "white", "markerColor": "red", "prefix": "glyphicon"}
+            );
+            marker_c990e2e1edaa429f8a6038794b2556d9.setIcon(icon_498d75550ba04dec8f05b8af51b733c9);
+        
+    
+        var popup_23cd9b989ae0489486da786893196504 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_2f7d098ef5bb46f29dd7dc6e58b7096c = $(`<div id="html_2f7d098ef5bb46f29dd7dc6e58b7096c" style="width: 100.0%; height: 100.0%;">('삼화제7근린고원', '제주특별자치도 제주시 화북일동   1011')</div>`)[0];
+            popup_23cd9b989ae0489486da786893196504.setContent(html_2f7d098ef5bb46f29dd7dc6e58b7096c);
+        
+
+        marker_c990e2e1edaa429f8a6038794b2556d9.bindPopup(popup_23cd9b989ae0489486da786893196504)
+        ;
+
+        
+    
+    
+            var marker_d53a497d508b49499b23978b0dc4cbdc = L.marker(
+                [33.532823, 126.598151],
+                {}
+            ).addTo(map_dbd4db999b40424396c8ffbee71e5bc4);
+        
+    
+            var icon_848534e4fbd4437a977cb86fd46ab737 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "glyphicon glyphicon-ok", "iconColor": "white", "markerColor": "red", "prefix": "glyphicon"}
+            );
+            marker_d53a497d508b49499b23978b0dc4cbdc.setIcon(icon_848534e4fbd4437a977cb86fd46ab737);
+        
+    
+        var popup_5b3f073d3e4c45beb25134a85a9282be = L.popup({"maxWidth": "100%"});
+
+        
+            var html_dea3f359565f464daac8ca3d3a26ea24 = $(`<div id="html_dea3f359565f464daac8ca3d3a26ea24" style="width: 100.0%; height: 100.0%;">('삼양축구장', '제주특별자치도 제주시 삼양일동   747-0')</div>`)[0];
+            popup_5b3f073d3e4c45beb25134a85a9282be.setContent(html_dea3f359565f464daac8ca3d3a26ea24);
+        
+
+        marker_d53a497d508b49499b23978b0dc4cbdc.bindPopup(popup_5b3f073d3e4c45beb25134a85a9282be)
+        ;
+
+        
+    
+    
+            var marker_29a2896e6033412b985a0b95ae0aecf5 = L.marker(
+                [33.517837, 126.58011],
+                {}
+            ).addTo(map_dbd4db999b40424396c8ffbee71e5bc4);
+        
+    
+            var icon_c32b1b5b942347d5bcb3edb405c75c48 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "glyphicon glyphicon-ok", "iconColor": "white", "markerColor": "red", "prefix": "glyphicon"}
+            );
+            marker_29a2896e6033412b985a0b95ae0aecf5.setIcon(icon_c32b1b5b942347d5bcb3edb405c75c48);
+        
+    
+        var popup_ccef9cf4cccd4bcbb7303408feef6054 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_573c41265a1d4ebabcad9f8b6c33c75b = $(`<div id="html_573c41265a1d4ebabcad9f8b6c33c75b" style="width: 100.0%; height: 100.0%;">('삼화제1근린공원', '제주특별자치도 제주시 삼양이동   2304-6')</div>`)[0];
+            popup_ccef9cf4cccd4bcbb7303408feef6054.setContent(html_573c41265a1d4ebabcad9f8b6c33c75b);
+        
+
+        marker_29a2896e6033412b985a0b95ae0aecf5.bindPopup(popup_ccef9cf4cccd4bcbb7303408feef6054)
+        ;
+
+        
+    
+    
+            var marker_c367907f9802437a962b4a721ddf2012 = L.marker(
+                [33.520327, 126.586496],
+                {}
+            ).addTo(map_dbd4db999b40424396c8ffbee71e5bc4);
+        
+    
+            var icon_0483e62b6b97499aa3976d91c6686336 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "glyphicon glyphicon-ok", "iconColor": "white", "markerColor": "red", "prefix": "glyphicon"}
+            );
+            marker_c367907f9802437a962b4a721ddf2012.setIcon(icon_0483e62b6b97499aa3976d91c6686336);
+        
+    
+        var popup_af5a7946ef144c1087f9c324c275a2dd = L.popup({"maxWidth": "100%"});
+
+        
+            var html_9e0fb948d5cc441ea20e8d885c1488f1 = $(`<div id="html_9e0fb948d5cc441ea20e8d885c1488f1" style="width: 100.0%; height: 100.0%;">('삼양초등학교 운동장', '제주특별자치도 제주시 삼양이동   2181-28')</div>`)[0];
+            popup_af5a7946ef144c1087f9c324c275a2dd.setContent(html_9e0fb948d5cc441ea20e8d885c1488f1);
+        
+
+        marker_c367907f9802437a962b4a721ddf2012.bindPopup(popup_af5a7946ef144c1087f9c324c275a2dd)
+        ;
+
+        
+    
+    
+            var marker_e5d2bcbb70054949b2bbbcf5370bd5f6 = L.marker(
+                [33.518307, 126.581866],
+                {}
+            ).addTo(map_dbd4db999b40424396c8ffbee71e5bc4);
+        
+    
+            var icon_03eb4d896f7c4b4f86233846682db327 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "glyphicon glyphicon-ok", "iconColor": "white", "markerColor": "red", "prefix": "glyphicon"}
+            );
+            marker_e5d2bcbb70054949b2bbbcf5370bd5f6.setIcon(icon_03eb4d896f7c4b4f86233846682db327);
+        
+    
+        var popup_2646c26f473f42acba53ddb0538f9000 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_fda81e359406451788dc11362b6921dd = $(`<div id="html_fda81e359406451788dc11362b6921dd" style="width: 100.0%; height: 100.0%;">('삼화제3근린공원', '제주특별자치도 제주시 삼양이동   2329')</div>`)[0];
+            popup_2646c26f473f42acba53ddb0538f9000.setContent(html_fda81e359406451788dc11362b6921dd);
+        
+
+        marker_e5d2bcbb70054949b2bbbcf5370bd5f6.bindPopup(popup_2646c26f473f42acba53ddb0538f9000)
+        ;
+
+        
+    
+    
+            var marker_3db0a1214b104f13875ce86bdcf0c823 = L.marker(
+                [33.490388, 126.593711],
+                {}
+            ).addTo(map_dbd4db999b40424396c8ffbee71e5bc4);
+        
+    
+            var icon_acee54f90701406dbf288f65ace13911 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "glyphicon glyphicon-ok", "iconColor": "white", "markerColor": "red", "prefix": "glyphicon"}
+            );
+            marker_3db0a1214b104f13875ce86bdcf0c823.setIcon(icon_acee54f90701406dbf288f65ace13911);
+        
+    
+        var popup_7afbc40b37ca4e6a8f83edcd1387516b = L.popup({"maxWidth": "100%"});
+
+        
+            var html_443c87fdc6b04fe8a1ef36f467a9e218 = $(`<div id="html_443c87fdc6b04fe8a1ef36f467a9e218" style="width: 100.0%; height: 100.0%;">('봉개초등학교 운동장', '제주특별자치도 제주시 봉개동   1930-2')</div>`)[0];
+            popup_7afbc40b37ca4e6a8f83edcd1387516b.setContent(html_443c87fdc6b04fe8a1ef36f467a9e218);
+        
+
+        marker_3db0a1214b104f13875ce86bdcf0c823.bindPopup(popup_7afbc40b37ca4e6a8f83edcd1387516b)
+        ;
+
+        
+    
+    
+            var marker_01bb8f8d28c744278115357d4d9b7547 = L.marker(
+                [33.476578, 126.54353],
+                {}
+            ).addTo(map_dbd4db999b40424396c8ffbee71e5bc4);
+        
+    
+            var icon_cd50ac60dbdb48ecbd208829bb68e22d = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "glyphicon glyphicon-ok", "iconColor": "white", "markerColor": "red", "prefix": "glyphicon"}
+            );
+            marker_01bb8f8d28c744278115357d4d9b7547.setIcon(icon_cd50ac60dbdb48ecbd208829bb68e22d);
+        
+    
+        var popup_8688ea486ff44bdba7a9db2322c766e6 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_1c5e9d72e22c41d49b23bf8f08de31ab = $(`<div id="html_1c5e9d72e22c41d49b23bf8f08de31ab" style="width: 100.0%; height: 100.0%;">('아라초등학교 운동장', '제주특별자치도 제주시 아라일동   6101')</div>`)[0];
+            popup_8688ea486ff44bdba7a9db2322c766e6.setContent(html_1c5e9d72e22c41d49b23bf8f08de31ab);
+        
+
+        marker_01bb8f8d28c744278115357d4d9b7547.bindPopup(popup_8688ea486ff44bdba7a9db2322c766e6)
+        ;
+
+        
+    
+    
+            var marker_36bdc832eb9041ab9723bd0d2a0f8cd3 = L.marker(
+                [33.486088, 126.546119],
+                {}
+            ).addTo(map_dbd4db999b40424396c8ffbee71e5bc4);
+        
+    
+            var icon_51634aacb9154a1f8c7fb03a94412afa = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "glyphicon glyphicon-ok", "iconColor": "white", "markerColor": "red", "prefix": "glyphicon"}
+            );
+            marker_36bdc832eb9041ab9723bd0d2a0f8cd3.setIcon(icon_51634aacb9154a1f8c7fb03a94412afa);
+        
+    
+        var popup_3ede761f56234b63b673264750240e30 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_3834f9640f764971a81ab3fa746ee5b0 = $(`<div id="html_3834f9640f764971a81ab3fa746ee5b0" style="width: 100.0%; height: 100.0%;">('아라중학교 운동장', '제주특별자치도 제주시 아라이동   1419-0')</div>`)[0];
+            popup_3ede761f56234b63b673264750240e30.setContent(html_3834f9640f764971a81ab3fa746ee5b0);
+        
+
+        marker_36bdc832eb9041ab9723bd0d2a0f8cd3.bindPopup(popup_3ede761f56234b63b673264750240e30)
+        ;
+
+        
+    
+    
+            var marker_8b4f8a4ad6e74467b377d8347b5111ce = L.marker(
+                [33.4917, 126.545387],
+                {}
+            ).addTo(map_dbd4db999b40424396c8ffbee71e5bc4);
+        
+    
+            var icon_a71899a8b3a34f1187c566b3215fdfb3 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "glyphicon glyphicon-ok", "iconColor": "white", "markerColor": "red", "prefix": "glyphicon"}
+            );
+            marker_8b4f8a4ad6e74467b377d8347b5111ce.setIcon(icon_a71899a8b3a34f1187c566b3215fdfb3);
+        
+    
+        var popup_01a5df0dde954cd686437456e8fd060e = L.popup({"maxWidth": "100%"});
+
+        
+            var html_7dd10c1f76254ba185318b1865c7844d = $(`<div id="html_7dd10c1f76254ba185318b1865c7844d" style="width: 100.0%; height: 100.0%;">('탐라중학교 운동장', '제주특별자치도 제주시 아라이동   3006-0')</div>`)[0];
+            popup_01a5df0dde954cd686437456e8fd060e.setContent(html_7dd10c1f76254ba185318b1865c7844d);
+        
+
+        marker_8b4f8a4ad6e74467b377d8347b5111ce.bindPopup(popup_01a5df0dde954cd686437456e8fd060e)
+        ;
+
+        
+    
+    
+            var marker_8a8597bb394f48aa9880786c71fd5567 = L.marker(
+                [33.497779, 126.514489],
+                {}
+            ).addTo(map_dbd4db999b40424396c8ffbee71e5bc4);
+        
+    
+            var icon_4f18ddc69d4448d7b1243ba52885c21b = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "glyphicon glyphicon-ok", "iconColor": "white", "markerColor": "red", "prefix": "glyphicon"}
+            );
+            marker_8a8597bb394f48aa9880786c71fd5567.setIcon(icon_4f18ddc69d4448d7b1243ba52885c21b);
+        
+    
+        var popup_b5516f77ba734999965e119d9100bf67 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_d32dcfbb4a784f29929eac40240028f9 = $(`<div id="html_d32dcfbb4a784f29929eac40240028f9" style="width: 100.0%; height: 100.0%;">('제주종합경기장 주경기장 ', '제주특별자치도 제주시 오라일동   1165')</div>`)[0];
+            popup_b5516f77ba734999965e119d9100bf67.setContent(html_d32dcfbb4a784f29929eac40240028f9);
+        
+
+        marker_8a8597bb394f48aa9880786c71fd5567.bindPopup(popup_b5516f77ba734999965e119d9100bf67)
+        ;
+
+        
+    
+    
+            var marker_d07da41efd7b4a0bb3109b4b8efb27a3 = L.marker(
+                [33.484749, 126.476156],
+                {}
+            ).addTo(map_dbd4db999b40424396c8ffbee71e5bc4);
+        
+    
+            var icon_13bc7b59411a491cbb84ff21f086c853 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "glyphicon glyphicon-ok", "iconColor": "white", "markerColor": "red", "prefix": "glyphicon"}
+            );
+            marker_d07da41efd7b4a0bb3109b4b8efb27a3.setIcon(icon_13bc7b59411a491cbb84ff21f086c853);
+        
+    
+        var popup_427538d5ef6441daa8b58409c0c77a26 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_2b6b52481344478d90883c788381dc17 = $(`<div id="html_2b6b52481344478d90883c788381dc17" style="width: 100.0%; height: 100.0%;">('노형초등학교 운동장', '제주특별자치도 제주시 노형동   2610-1')</div>`)[0];
+            popup_427538d5ef6441daa8b58409c0c77a26.setContent(html_2b6b52481344478d90883c788381dc17);
+        
+
+        marker_d07da41efd7b4a0bb3109b4b8efb27a3.bindPopup(popup_427538d5ef6441daa8b58409c0c77a26)
+        ;
+
+        
+    
+    
+            var marker_2d69b106546d4c418e7318e87439bb5b = L.marker(
+                [33.489657, 126.47194],
+                {}
+            ).addTo(map_dbd4db999b40424396c8ffbee71e5bc4);
+        
+    
+            var icon_086e9527c0834fa5b4bc65a6a3e02438 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "glyphicon glyphicon-ok", "iconColor": "white", "markerColor": "red", "prefix": "glyphicon"}
+            );
+            marker_2d69b106546d4c418e7318e87439bb5b.setIcon(icon_086e9527c0834fa5b4bc65a6a3e02438);
+        
+    
+        var popup_2d098f6d55c6433aa148d909a250ac8f = L.popup({"maxWidth": "100%"});
+
+        
+            var html_f0f3f9f13da4425e9f06f246f5a8c46f = $(`<div id="html_f0f3f9f13da4425e9f06f246f5a8c46f" style="width: 100.0%; height: 100.0%;">('노형제2근린공원', '제주특별자치도 제주시 노형동   2582-1')</div>`)[0];
+            popup_2d098f6d55c6433aa148d909a250ac8f.setContent(html_f0f3f9f13da4425e9f06f246f5a8c46f);
+        
+
+        marker_2d69b106546d4c418e7318e87439bb5b.bindPopup(popup_2d098f6d55c6433aa148d909a250ac8f)
+        ;
+
+        
+    
+    
+            var marker_eb7e8e9cf5774f2b9ae07ad355157656 = L.marker(
+                [33.492538, 126.478373],
+                {}
+            ).addTo(map_dbd4db999b40424396c8ffbee71e5bc4);
+        
+    
+            var icon_dfd85d4834474556a5a2d6201b3d3aeb = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "glyphicon glyphicon-ok", "iconColor": "white", "markerColor": "red", "prefix": "glyphicon"}
+            );
+            marker_eb7e8e9cf5774f2b9ae07ad355157656.setIcon(icon_dfd85d4834474556a5a2d6201b3d3aeb);
+        
+    
+        var popup_5ac57f79e9c44c708f699dfd12321c10 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_4255208681ab4ec0b2cb81c42cf751db = $(`<div id="html_4255208681ab4ec0b2cb81c42cf751db" style="width: 100.0%; height: 100.0%;">('월랑초등학교 운동장', '제주특별자치도 제주시 노형동   1094-4')</div>`)[0];
+            popup_5ac57f79e9c44c708f699dfd12321c10.setContent(html_4255208681ab4ec0b2cb81c42cf751db);
+        
+
+        marker_eb7e8e9cf5774f2b9ae07ad355157656.bindPopup(popup_5ac57f79e9c44c708f699dfd12321c10)
+        ;
+
+        
+    
+    
+            var marker_58ece00492204670a43c4ca2f62c7fb6 = L.marker(
+                [33.47642, 126.475741],
+                {}
+            ).addTo(map_dbd4db999b40424396c8ffbee71e5bc4);
+        
+    
+            var icon_d930169d2a1349fca058a6a1dce874be = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "glyphicon glyphicon-ok", "iconColor": "white", "markerColor": "red", "prefix": "glyphicon"}
+            );
+            marker_58ece00492204670a43c4ca2f62c7fb6.setIcon(icon_d930169d2a1349fca058a6a1dce874be);
+        
+    
+        var popup_4445f81f748749c99eff86b3868000c1 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_7c13adeb4b274d368f12ca3cb7c0d6d4 = $(`<div id="html_7c13adeb4b274d368f12ca3cb7c0d6d4" style="width: 100.0%; height: 100.0%;">('노형중학교 운동장', '제주특별자치도 제주시 노형동   3812-0')</div>`)[0];
+            popup_4445f81f748749c99eff86b3868000c1.setContent(html_7c13adeb4b274d368f12ca3cb7c0d6d4);
+        
+
+        marker_58ece00492204670a43c4ca2f62c7fb6.bindPopup(popup_4445f81f748749c99eff86b3868000c1)
+        ;
+
+        
+    
+</script>
